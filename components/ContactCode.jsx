@@ -4,7 +4,7 @@ const contactItems = [
   {
     social: 'website',
     link: 'cherylgoh.com',
-    href: 'https://cherriel-designs.vercel.app/projects',
+    href: 'https://cherriel-designs.vercel.app/',
   },
   {
     social: 'email',
