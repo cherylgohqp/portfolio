@@ -15,11 +15,23 @@ const CustomHead = ({ title }) => {
       <meta property="og:title" content="Cheryl's Portfolio" />
       <meta
         property="og:description"
-        content="A full-stack developer building websites that you'd like to use."
+        content="A front-end developer by day, A dancer by night"
       />
-      <meta property="og:image" content="https://imgur.com/4zi5KkQ.png" />
+      <meta property="og:image:width" content="1200" />
+      <meta property="og:image:height" content="627" />
+      <meta property="og:image" content="https://cherriel-designs.vercel.app/me.jpeg" />
       <meta property="og:url" content="https://cherriel-designs.vercel.app" />
+      <meta property="og:type" content="website" />
       <meta name="twitter:card" content="summary_large_image" />
+      <meta
+        name="twitter:title"
+        content="Cheryl Goh | Front End Developer"
+      />
+      <meta
+        name="twitter:description"
+        content="A front-end developer by day, A dancer by night"
+      />
+      <meta name="twitter:image" content="https://cherriel-designs.vercel.app/me.jpeg" />
     </Head>
   );
 };
