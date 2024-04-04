@@ -6,14 +6,13 @@ export default function HomePage() {
   return (
     <>
       <div className={styles.container}>
-        <div className={styles.background}>
-          <h1>I BUILD</h1>
-          <h1>WEBSITES</h1>
-        </div>
+
         <div className={styles.foreground}>
           <div className={styles.content}>
+          {/* <h4 className={`${styles["welcome"]} ${styles["bubble-bottom-left"]}`}>Hi there, I'm</h4> */}
+          <h4 className={styles.welcome}>Hi there, I'm</h4>
             <h1 className={styles.name}>Cheryl Goh</h1>
-            <h6 className={styles.bio}>Front End Developer</h6>
+            <h6 className={styles.bio}> A Front End Developer</h6>
             <Link href="/projects">
               <button className={styles.button}>View Work</button>
             </Link>
@@ -21,7 +20,7 @@ export default function HomePage() {
               <button className={styles.outlined}>Contact Me</button>
             </Link>
           </div>
-          <Illustration className={styles.illustration} />
+          {/* <Illustration className={styles.illustration} /> */}
         </div>
       </div>
     </>

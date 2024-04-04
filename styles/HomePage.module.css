@@ -4,17 +4,11 @@
   display: flex;
   justify-content: center;
   height: 75vh;
+  width: 100%;
+  /* height: 100%; */
   flex-direction: column;
   position: relative;
-}
 
-.background {
-  font-size: 5rem;
-  font-family: 'Montserrat';
-  line-height: 1.1;
-  color: var(--bg-text);
-  position: absolute;
-  z-index: 1;
 }
 
 .foreground {
@@ -23,6 +17,15 @@
   color: var(--accent-color);
   justify-content: space-between;
   align-items: center;
+  padding-left: 40px;
+  
+}
+
+.welcome{
+  color: #c2c2c2;
+  font-size: 1.25rem;
+  font-weight: 300;
+  margin-bottom: 0.5rem;
 }
 
 .name {
@@ -30,12 +33,13 @@
   font-size: 3.5rem;
   font-weight: 500;
   margin-bottom: 0.5rem;
+;
 }
 
 .bio {
   width: max-content;
   color: #eee;
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-weight: 300;
   margin-bottom: 3rem;
   position: relative;

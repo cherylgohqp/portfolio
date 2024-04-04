@@ -12,11 +12,6 @@ const contactItems = [
     href: 'cheryl_goh@alumni.sutd.edu.sg',
   },
   {
-    social: 'github',
-    link: 'cherylgoh',
-    href: 'https://github.com/cherylgohqp',
-  },
-  {
     social: 'linkedin',
     link: 'cheryl.goh',
     href: 'https://www.linkedin.com/in/cheryl-g-899546159',
