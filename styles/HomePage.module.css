@@ -14,8 +14,8 @@
 .foreground {
   z-index: 2;
   display: flex;
-  color: var(--accent-color);
-  justify-content: space-between;
+  /* color: var(--accent-color); */
+  justify-content: center;
   align-items: center;
   padding-left: 40px;
   
@@ -26,6 +26,7 @@
   font-size: 1.25rem;
   font-weight: 300;
   margin-bottom: 0.5rem;
+  text-align: center;
 }
 
 .name {
@@ -33,6 +34,7 @@
   font-size: 3.5rem;
   font-weight: 500;
   margin-bottom: 0.5rem;
+  text-align: center;
 ;
 }
 
@@ -43,6 +45,7 @@
   font-weight: 300;
   margin-bottom: 3rem;
   position: relative;
+  text-align: center;
 }
 
 .bio::before,
@@ -63,7 +66,7 @@
 .bio::after {
   margin-left: 0.4rem;
   width: 0.125em;
-  background: var(--accent-color);
+  background: #6497b1;
   animation: typewriter 2.5s steps(24) 500ms forwards,
     blink 750ms steps(24) infinite;
 }
@@ -80,8 +83,14 @@
   }
 }
 
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .button {
-  background: var(--accent-color);
+  background: 	#6497b1;
   font-size: 1.25rem;
   padding: 0.5rem 1rem;
   margin-right: 1.5rem;
@@ -95,7 +104,7 @@
   font-size: 1.25rem;
   padding: 0.5rem 1rem;
   color: #eee;
-  border: 2px solid var(--accent-color);
+  border: 2px solid 	#6497b1;
   background: transparent;
   cursor: pointer;
 }

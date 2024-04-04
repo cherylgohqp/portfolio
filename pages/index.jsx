@@ -8,17 +8,18 @@ export default function HomePage() {
       <div className={styles.container}>
 
         <div className={styles.foreground}>
-          <div className={styles.content}>
-          {/* <h4 className={`${styles["welcome"]} ${styles["bubble-bottom-left"]}`}>Hi there, I'm</h4> */}
+          <div className={styles.content}>          
           <h4 className={styles.welcome}>Hi there, I'm</h4>
             <h1 className={styles.name}>Cheryl Goh</h1>
             <h6 className={styles.bio}> A Front End Developer</h6>
+            <div className={styles.buttonContainer}> 
             <Link href="/projects">
               <button className={styles.button}>View Work</button>
             </Link>
             <Link href="/contact">
               <button className={styles.outlined}>Contact Me</button>
             </Link>
+            </div>
           </div>
           {/* <Illustration className={styles.illustration} /> */}
         </div>

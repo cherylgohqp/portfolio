@@ -12,7 +12,7 @@
 }
 
 .code a {
-  color: var(--accent-color);
+  color: #6497b1;
   text-decoration: none;
 }
 
@@ -21,7 +21,7 @@
 }
 
 .className {
-  color: var(--accent-color);
+  color: #6497b1;
 }
 
 @media screen and (max-width: 600px) {
