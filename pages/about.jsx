@@ -45,6 +45,7 @@ const AboutPage = () => {
                   <span>SCSS</span>
                 </li>
             </ul>
+            {/* maybe can add some testimonial part here? */}
             </div>
           </div>
         </div>
