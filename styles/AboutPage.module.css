@@ -1,0 +1,37 @@
+.about-me-container{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  /* flex-direction: column; */
+  /* font-family: "Roboto", sans-serif; */
+}
+
+.overlay{
+  /* padding: 30px; */
+  /* width: 100%;
+  height: 100%; */
+  box-shadow: inset 0 0 0 2000px rgba(15, 15, 15, 0.588);
+}
+
+.picture{
+  width: 100%;
+  height: 100%;
+}
+
+.content{
+  display:flex;
+  flex-direction: row;
+  padding: 30px;
+  width: 100%;
+  height: 100%;
+  
+}
+
+.section-title{
+  padding-bottom: 16px;
+}
+
+.section-container{
+  padding-left: 24px;
+}
