@@ -4,10 +4,10 @@ import styles from '../styles/ProjectCard.module.css';
 const ProjectCard = ({ project }) => {
   return (
     <div className={styles.card}>
-      <div className={styles.image}>
-      <Image src={project.image} height={300} width={600} alt={project.name} />
+      {/* <div className={styles.image}> */}
+      <Image src={project.image} height={300} width={600} alt={project.name} className={styles.image}/>
         <div className={styles.overlay}></div>
-      </div>
+      {/* </div> */}
       <div className={styles.content}>
         <h3>{project.name}</h3>
         <p>{project.description}</p>
