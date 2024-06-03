@@ -1,13 +1,20 @@
-import Image from 'next/image';
-import styles from '../styles/ProjectCard.module.css';
+import Image from "next/image";
+import styles from "../styles/ProjectCard.module.css";
+import { EyeIcon } from "@heroicons/react/outline";
 
-const ProjectCard = ({ project }) => {
+const ProjectCard = ({ project, onClick }) => {
   return (
-    <div className={styles.card}>
-      {/* <div className={styles.image}> */}
-      <Image src={project.image} height={300} width={600} alt={project.name} className={styles.image}/>
-        <div className={styles.overlay}></div>
-      {/* </div> */}
+    <div className={styles.card} onClick={onClick}>
+      <Image
+        src={project.image}
+        height={300}
+        width={600}
+        alt={project.name}
+        className={styles.image}
+      />
+      <div className={styles.overlay}>
+        <EyeIcon className={styles.preview} />
+      </div>
       <div className={styles.content}>
         <h3>{project.name}</h3>
         <p>{project.description}</p>

@@ -25,6 +25,17 @@
   opacity: 0; /* Initially hidden */
   transition: opacity 0.2s ease-in-out; /* Smooth transition on hover */
   border-radius: 20px;
+  display: flex; /* Make the overlay container flexible for centering */
+  justify-content: center; /* Center the preview element horizontally */
+  align-items: center; /* Center the preview element vertically */
+}
+
+.preview {
+  display: flex;
+  height: 48px;
+  width: 48px;
+  cursor: pointer;
+  /* h-5 w-5 text-[#ADB&BE] m-2 cursor-pointer */
 }
 
 .content {
