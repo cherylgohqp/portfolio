@@ -4,15 +4,15 @@
   flex-direction: column;
   border-radius: 20px;
   cursor: pointer;
-  position: relative
+  position: relative;
 }
 
-.card:hover .overlay{
+.card:hover .overlay {
   box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
   opacity: 1;
 }
 
-.image{
+.image {
   border-radius: 20px;
 }
 .overlay {
@@ -26,11 +26,6 @@
   transition: opacity 0.2s ease-in-out; /* Smooth transition on hover */
   border-radius: 20px;
 }
-
-/* .image:hover .overlay {
-  opacity: 1; /* Overlay becomes visible on hover */
-/* } */ 
-
 
 .content {
   padding: 1rem;
