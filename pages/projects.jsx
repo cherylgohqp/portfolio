@@ -3,6 +3,12 @@ import { getProjects } from "./api/projects";
 import styles from "../styles/ProjectsPage.module.css";
 import { useState } from "react";
 import Image from "next/image";
+import Video from "next-video";
+import getStarted from "/videos/get-started.mp4";
+
+// export default function Page() {
+//   return <Video src={getStarted} />;
+// }
 
 const ProjectsPage = ({ projects }) => {
   // const [currentImage, setCurrentImage] = useState(0);
@@ -47,6 +53,7 @@ const ProjectsPage = ({ projects }) => {
                 width={450}
                 alt={projects[selectedProjectIndex].name}
               />
+              {/* <Video src={getStarted} /> */}
               <h3>{projects[selectedProjectIndex].name}</h3>
               <p>{projects[selectedProjectIndex].description}</p>
               <div className={styles.cta}>
