@@ -59,3 +59,8 @@
 .underline:hover {
   background-size: 100% 88%;
 }
+
+.closepreview {
+  display: flex;
+  flex-direction: row-reverse;
+}

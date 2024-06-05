@@ -2,6 +2,7 @@ import ProjectCard from "../components/ProjectCard";
 import { getProjects } from "./api/projects";
 import styles from "../styles/ProjectsPage.module.css";
 import { useState } from "react";
+import Image from "next/image";
 
 const ProjectsPage = ({ projects }) => {
   // const [currentImage, setCurrentImage] = useState(0);
@@ -35,7 +36,17 @@ const ProjectsPage = ({ projects }) => {
           <div className={styles.modal}>
             <div className={styles.modalContent}>
               {/* Project preview content here */}
-              <button onClick={handleModalClose}>Close Preview</button>
+
+              <div className={styles.closepreview}>
+                <button onClick={handleModalClose}>Close Preview</button>
+              </div>
+              <Image
+                className={styles.projectimage}
+                src={projects[selectedProjectIndex].image}
+                height={450}
+                width={450}
+                alt={projects[selectedProjectIndex].name}
+              />
               <h3>{projects[selectedProjectIndex].name}</h3>
               <p>{projects[selectedProjectIndex].description}</p>
               <div className={styles.cta}>
@@ -60,15 +71,10 @@ const ProjectsPage = ({ projects }) => {
                   </a>
                 )}
               </div>
-              {/* <Image
-                src={projects[selectedProjectIndex].image}
-                height={300}
-                width={600}
-                alt={projects[selectedProjectIndex].name}
-              /> */}
+
               {/* Add any other relevant project details */}
             </div>
-            {/* <div className={styles.modalOverlay} onClick={handleModalClose} /> */}
+            {/* <div className={styles.modalOverlay} onClick={handleModalClose} />  this allows the closing of modal when user clicks outside of the modal */}
           </div>
         )}
       </div>
