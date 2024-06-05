@@ -1,37 +1,32 @@
 [
   {
     "id": 1,
-    "name": "Driwwwle",
-    "image": "/mountains2.jpg",
-    "description": "A platform for web developers to showcase their projects",
-    "tags": ["next", "node", "mongodb", "tailwind", "react-query"],
-    "source_code": "https://github.com/itsnitinr/driwwwle-v2",
-    "demo": "https://driwwwle.com/"
+    "name": "Capstone Project 2019",
+    "image": "/CapstoneRobot2.jpg",
+    "description": "A 6 months long collaborative work of 7 members together with a mentor from the Defense Science Organization (DSO) National Laboratories.",
+    "tags": ["python"],
+    "source_code": "https://github.com/fishblowbubbles/devastator/tree/master",
+    "demo": "test"
   },
   {
     "id": 2,
     "name": "PCB Cupid",
     "image": "/mountains2.jpg",
     "description": "E-commerce website for a PCB manufacturing company",
-    "tags": ["react", "node", "mongodb", "redux", "razorpay", "material-ui"],
-    "demo": "https://www.pcbcupid.com/"
+    "tags": ["react", "node", "mongodb", "redux", "razorpay", "material-ui"]
   },
   {
     "id": 3,
     "name": "HealthyWays",
     "image": "/mountains2.jpg",
     "description": "A food ordering platform for healthy and home-cooked meals",
-    "tags": ["react", "node", "mongodb", "redux", "razorpay", "material-ui"],
-    "source_code": "https://github.com/itsnitinr/healthyways",
-    "demo": "https://healthyways.herokuapp.com/"
+    "tags": ["react", "node", "mongodb", "redux", "razorpay", "material-ui"]
   },
   {
     "id": 4,
     "name": "VSCode Portfolio",
     "image": "/mountains2.jpg",
     "description": "A themeable and developer-centric portfolio based on the VSCode",
-    "tags": ["next", "css-modules"],
-    "source_code": "https://github.com/itsnitinr/vscode-portfolio",
-    "demo": "http://vscode-portfolio.vercel.app/"
+    "tags": ["next", "css-modules"]
   }
 ]

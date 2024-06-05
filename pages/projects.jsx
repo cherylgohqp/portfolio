@@ -4,9 +4,9 @@ import styles from "../styles/ProjectsPage.module.css";
 import { useState } from "react";
 
 const ProjectsPage = ({ projects }) => {
-  const [currentImage, setCurrentImage] = useState(0);
-  const [isOpen, setisOpen] = useState(false);
-  const [currentIndex, setCurrentIndex] = useState(0);
+  // const [currentImage, setCurrentImage] = useState(0);
+  // const [isOpen, setisOpen] = useState(false);
+  // const [currentIndex, setCurrentIndex] = useState(0);
   const [selectedProjectIndex, setSelectedProjectIndex] = useState(null);
 
   const handleProjectClick = (index) => {
@@ -35,6 +35,7 @@ const ProjectsPage = ({ projects }) => {
           <div className={styles.modal}>
             <div className={styles.modalContent}>
               {/* Project preview content here */}
+              <button onClick={handleModalClose}>Close Preview</button>
               <h3>{projects[selectedProjectIndex].name}</h3>
               <p>{projects[selectedProjectIndex].description}</p>
               {/* <Image
@@ -44,7 +45,6 @@ const ProjectsPage = ({ projects }) => {
                 alt={projects[selectedProjectIndex].name}
               /> */}
               {/* Add any other relevant project details */}
-              <button onClick={handleModalClose}>Close Preview</button>
             </div>
             <div className={styles.modalOverlay} onClick={handleModalClose} />
           </div>

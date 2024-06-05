@@ -3,12 +3,14 @@ import styles from "../styles/ProjectCard.module.css";
 import { EyeIcon } from "@heroicons/react/outline";
 
 const ProjectCard = ({ project, onClick }) => {
+  project.tags.map((tag) => console.log(tag));
   return (
     <div className={styles.card} onClick={onClick}>
       <Image
         src={project.image}
-        height={300}
-        width={600}
+        objectFit="fill"
+        height={450}
+        width={450}
         alt={project.name}
         className={styles.image}
       />
@@ -36,14 +38,16 @@ const ProjectCard = ({ project, onClick }) => {
               Source Code
             </a>
           )}
-          <a
-            href={project.demo}
-            target="_blank"
-            rel="noopener noreferrer"
-            className={styles.underline}
-          >
-            Live Demo
-          </a>
+          {project.demo && (
+            <a
+              href={project.demo}
+              target="_blank"
+              rel="noopener noreferrer"
+              className={styles.underline}
+            >
+              Live Demo
+            </a>
+          )}
         </div>
       </div>
     </div>
