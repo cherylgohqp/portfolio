@@ -38,6 +38,28 @@ const ProjectsPage = ({ projects }) => {
               <button onClick={handleModalClose}>Close Preview</button>
               <h3>{projects[selectedProjectIndex].name}</h3>
               <p>{projects[selectedProjectIndex].description}</p>
+              <div className={styles.cta}>
+                {projects[selectedProjectIndex].source_code && (
+                  <a
+                    href={projects[selectedProjectIndex].source_code}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className={styles.underline}
+                  >
+                    Source Code
+                  </a>
+                )}
+                {projects[selectedProjectIndex].demo && (
+                  <a
+                    href={projects[selectedProjectIndex].demo}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className={styles.underline}
+                  >
+                    Live Demo
+                  </a>
+                )}
+              </div>
               {/* <Image
                 src={projects[selectedProjectIndex].image}
                 height={300}
@@ -46,7 +68,7 @@ const ProjectsPage = ({ projects }) => {
               /> */}
               {/* Add any other relevant project details */}
             </div>
-            <div className={styles.modalOverlay} onClick={handleModalClose} />
+            {/* <div className={styles.modalOverlay} onClick={handleModalClose} /> */}
           </div>
         )}
       </div>

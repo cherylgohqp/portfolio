@@ -61,7 +61,7 @@
   transition: all 0.2s;
 }
 
-.cta {
+/* .cta {
   display: flex;
   gap: 1rem;
 }
@@ -86,4 +86,4 @@
 
 .underline:hover {
   background-size: 100% 88%;
-}
+} */
