@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400&display=swap");
 
 *,
 *::before,
@@ -83,5 +83,12 @@
   border: 2px solid rgb(21, 114, 182);
 }
 .css-modules:hover {
+  background: rgba(21, 114, 182, 0.25);
+}
+
+.python {
+  border: 2px solid rgb(21, 114, 182);
+}
+.python:hover {
   background: rgba(21, 114, 182, 0.25);
 }
