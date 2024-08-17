@@ -7,7 +7,7 @@ const ProjectCard = ({ project, onClick }) => {
   return (
     <div className={styles.card} onClick={onClick}>
       <Image
-        src={project.image}
+        src={project.image[0]}
         objectFit="fill"
         height={450}
         width={450}

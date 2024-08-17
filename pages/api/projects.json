@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "Capstone Project 2019",
-    "image": "/CapstoneRobot2.jpg",
+    "image": ["/CapstoneRobot2.jpg", "/CapstoneMap1.jpg"],
     "description": "A 6 months long collaborative work of 7 members together with a mentor from the Defense Science Organization (DSO) National Laboratories.",
     "tags": ["python"],
     "source_code": "https://github.com/fishblowbubbles/devastator/tree/master"
@@ -10,7 +10,7 @@
   {
     "id": 2,
     "name": "PCB Cupid",
-    "image": "/mountains2.jpg",
+    "image": ["/mountains2.jpg"],
     "description": "E-commerce website for a PCB manufacturing company",
     "tags": ["react", "node", "mongodb", "redux", "razorpay", "material-ui"],
     "source_code": "https://github.com/fishblowbubbles/devastator/tree/master",
@@ -19,14 +19,14 @@
   {
     "id": 3,
     "name": "HealthyWays",
-    "image": "/mountains2.jpg",
+    "image": ["/mountains2.jpg"],
     "description": "A food ordering platform for healthy and home-cooked meals",
     "tags": ["react", "node", "mongodb", "redux", "razorpay", "material-ui"]
   },
   {
     "id": 4,
     "name": "VSCode Portfolio",
-    "image": "/mountains2.jpg",
+    "image": ["/mountains2.jpg"],
     "description": "A themeable and developer-centric portfolio based on the VSCode",
     "tags": ["next", "css-modules"]
   }

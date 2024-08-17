@@ -5,7 +5,7 @@ import "react-awesome-slider/dist/custom-animations/scale-out-animation.css";
 import Image from "next/image";
 import styles from "../styles/ProjectsPage.module.css";
 import { XCircleIcon } from "@heroicons/react/outline";
-import Button from "react-bootstrap/Button";
+import "react-awesome-slider/dist/styles.css";
 const AutoplaySlider = withAutoplay(AwesomeSlider);
 
 const ProjectDetailsModal = ({
@@ -14,6 +14,21 @@ const ProjectDetailsModal = ({
   projects,
   selectedProjectIndex,
 }) => {
+  const imagesMap = projects[selectedProjectIndex].image.map((image) => {
+    return (
+      <div key={image}>
+        <Image
+          className={styles.projectimage}
+          src={image}
+          height={450}
+          width={450}
+          alt={projects[selectedProjectIndex].name}
+        />
+      </div>
+      //   <div key={image} data-src={image} />
+    );
+  });
+
   return (
     <Modal
       className={styles.modal}
@@ -29,13 +44,32 @@ const ProjectDetailsModal = ({
         <div className={styles.closepreview} onClick={onHide}>
           <XCircleIcon className={styles.closeBtn} />
         </div>
-        <Image
+
+        <div
+          style={{
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+          }}
+        >
+          <AutoplaySlider
+            animation="scaleOutAnimation"
+            // className="slider-image"
+            // cssModule={AwesomeSliderStyles}
+            play={true}
+            cancelOnInteraction={true}
+            interval={4000}
+          >
+            {imagesMap}
+          </AutoplaySlider>
+        </div>
+        {/* <Image
           className={styles.projectimage}
           src={projects[selectedProjectIndex].image}
           height={450}
           width={450}
           alt={projects[selectedProjectIndex].name}
-        />
+        /> */}
         {/* <Video src={getStarted} /> */}
         <h3>{projects[selectedProjectIndex].name}</h3>
         <p>{projects[selectedProjectIndex].description}</p>
