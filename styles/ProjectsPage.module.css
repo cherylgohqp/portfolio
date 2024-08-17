@@ -8,6 +8,7 @@
 .modal {
   display: flex !important;
   justify-content: center;
+  align-items: center;
   position: absolute;
   top: 0;
   /* max-height: 1100px;
@@ -24,6 +25,8 @@
   border-radius: 5px;
   height: 100%;
   max-width: 600px;
+  max-height: 580px;
+  overflow-y: auto;
   /* Add additional styles for modal content appearance */
 }
 
@@ -68,30 +71,19 @@
 }
 
 .imageSlider {
-  margin: 24px 32px;
+  margin: 16px 8px;
   /* top bottom | left right */
 }
 .projectDetails {
-  padding: 24px 32px;
+  padding: 24px 8px;
   color: white;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 .header {
-  padding-bottom: 24px;
+  padding: 16px 0px;
 }
 
 .description {
-  padding-bottom: 24px;
-}
-
-.sliderImageContainer {
-  position: relative; /* This is necessary for layout="fill" to work */
-  width: 100%; /* Ensure it fills the width of the slider */
-  height: 100%; /* Ensure it fills the height of the slider */
-  overflow: hidden; /* Hide overflow to maintain aspect ratio */
-}
-
-.projectimage {
-  object-fit: cover;
+  padding-bottom: 16px;
 }

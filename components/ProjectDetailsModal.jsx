@@ -23,7 +23,7 @@ const ProjectDetailsModal = ({
           //   height={450}
           //   width={450}
           layout="fill" // This makes the image fill its container
-          objectFit="cover"
+          objectFit="contain"
           alt={projects[selectedProjectIndex].name}
         />
       </div>
