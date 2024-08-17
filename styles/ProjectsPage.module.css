@@ -33,6 +33,7 @@
 .cta {
   display: flex;
   padding-top: 24px;
+  gap: 1rem;
 }
 
 .icon {
@@ -53,6 +54,22 @@
 }
 .tag:hover {
   box-shadow: 0 0 8px rgba(231, 174, 244, 0.845); /* Glowing shadow effect on hover */
+}
+
+.demoTag {
+  display: inline-flex; /* Align text and icon horizontally */
+  align-items: center; /* Center items vertically */
+  padding: 0.5rem 1rem; /* Add padding around the text and icon */
+  background-color: #0c2340; /* Background color */
+  color: #fff; /* Text color */
+  border-radius: 20px; /* Rounded corners for pill effect */
+  text-decoration: none; /* Remove underline */
+  font-size: 0.9rem; /* Adjust font size */
+  transition: box-shadow 0.3s ease; /* Smooth transition for shadow effect */
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.3); /* Initial shadow effect */
+}
+.demoTag:hover {
+  box-shadow: 0 0 8px #007fff; /* Glowing shadow effect on hover */
 }
 
 .underline {

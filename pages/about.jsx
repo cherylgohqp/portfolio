@@ -16,12 +16,19 @@ const AboutPage = () => {
             />
             <div className={classes["section-container"]}>
               <h1 className={classes["section-title"]}>About Me</h1>
-                <p className={classes["about"]}>
-                Hi there, I'm Cheryl, a front end developer who loves bringing figma designs to life and building user-friendly websites and webapps.
-                <br></br><br></br>My coding journey began with Python and Java, and now I'm mainly working with ReactJS, typescript and SCSS.
-                <br></br><br></br>When I'm not coding, you might find me sweating it out at dance classes or going on nature trail walks!
-                <br></br><br></br> Some of my skills include:
-                </p>
+              <p className={classes["about"]}>
+                Hi there, I'm Cheryl, a front end engineer who loves bringing
+                figma designs to life and building user-friendly websites and
+                webapps.
+                <br></br>
+                <br></br>My coding journey began with Python and Java, and now
+                I'm mainly working with ReactJS, typescript and SCSS.
+                <br></br>
+                <br></br>When I'm not coding, you might find me sweating it out
+                at dance classes or going on nature trail walks!
+                <br></br>
+                <br></br> Some of my skills include:
+              </p>
               <ul className={classes["skillsList"]}>
                 <li>
                   <span>Figma</span>
@@ -44,8 +51,8 @@ const AboutPage = () => {
                 <li>
                   <span>SCSS</span>
                 </li>
-            </ul>
-            {/* maybe can add some testimonial part here? */}
+              </ul>
+              {/* maybe can add some testimonial part here? */}
             </div>
           </div>
         </div>
@@ -56,7 +63,7 @@ const AboutPage = () => {
 
 export async function getStaticProps() {
   return {
-    props: { title: 'About' },
+    props: { title: "About" },
   };
 }
 

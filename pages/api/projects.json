@@ -1,6 +1,21 @@
 [
   {
     "id": 1,
+    "name": "P4D - Frontend Engineer",
+    "image": [
+      "/PodiumBanner2.png",
+      "/beforeProjectDashboard.png",
+      "/newProjectDashboard.png",
+      "/teambondingP4D.jpg"
+    ],
+    "description": "P4D which stands for Podium For Development, is a next generation building design software powered by real-world supplier parts catalogue, for architects and building engineers to rapidly iterate on building designs using realistic contraints and computations.",
+    "details": "During my tenure at Lendlease, I thrived in an <u>agile</u> environment with <u>fortnightly sprints</u>, where I utilized <u>ReactJS frameworks</u> to design and develop dynamic components and features. <br></br> I played a key role in the overall website revamping, <u>developing</u> new interactive components and <u>integrating</u> new functionalities with <u>back-end APIs</u>, ensuring seamless and rapid deployment within our project timelines. <br></br> My efforts in developing Storybook components significantly <u>streamlined</u> our development processes and <u>enhanced overall efficiency</u>. Additionally, I implemented <u>Datadog integration</u> within our ReactJS application, providing comprehensive front-end monitoring and real-time user analytics. This optimization improved performance and ensured a seamless user experience.<br></br> Colleagues have praised my dedication to crafting <u>clean, modular, and well-documented</u> code, that delivers exceptional user experiences. My commitment to high-quality results and continuous learning from senior engineers has been pivotal in navigating the challenges of a dynamic development environment. <br></br> Here's a video featuring P4D:",
+    "video": "https://www.youtube.com/embed/87T0pawAGT8?si=D0MMeKBMWv8g9huc",
+    "tags": ["reactjs", "typescript", "datadog"],
+    "demo": ["https://www.lendleasepodium.com/products/podium-for-development/"]
+  },
+  {
+    "id": 2,
     "name": "Capstone Project 2019",
     "image": [
       "/CapstoneRobot2.jpg",
@@ -11,13 +26,13 @@
       "/CapstoneGroupPic.jpg"
     ],
     "description": "Collaborated with a team of seven, under the guidance of the Defense Science Organization (DSO) National Laboratories, to design and develop a semi-autonomous reconnaissance robot for intelligence gathering in terrorist-occupied indoor spaces during a six-month project.",
-    "details": "<br></br><strong><u>This robot features three core capabilities:</u></strong> <br></br> <ol><li>Real-time detection and location of potential terrorists and hostages</li> <li>Identification of weapon types</li> <li>Autonomous navigation</li></ol><br></br><strong><u>Advanced visual intelligence features includes:</u></strong> <br></br> <ol><li>Real-time facial recognition</li> <li>Landmark-Based Localization</li> <li>Object Detection Powered by CNNs</li> <li>Weapon Model Identification</li></ol> <br></br> <strong><u>Aural intelligence capabilities includes: </u></strong> <br></br> <ol><li>Gunshot localization</li> <li>Emotion classification</li> <li>Real-time mapping localization via  a mini map and report logs app done in Python and JavaScript</li></ol><br></br>Here's a short demo video!",
+    "details": "<br></br><u><u>This robot features three core capabilities:</u></u> <br></br> <ol><li>Real-time detection and location of potential terrorists and hostages</li> <li>Identification of weapon types</li> <li>Autonomous navigation</li></ol><br></br><u><u>Advanced visual intelligence features includes:</u></u> <br></br> <ol><li>Real-time facial recognition</li> <li>Landmark-Based Localization</li> <li>Object Detection Powered by CNNs</li> <li>Weapon Model Identification</li></ol> <br></br> <u><u>Aural intelligence capabilities includes: </u></u> <br></br> <ol><li>Gunshot localization</li> <li>Emotion classification</li> <li>Real-time mapping localization via  a mini map and report logs app done in Python and JavaScript</li></ol><br></br>Here's a short demo video!",
     "video": "https://www.youtube.com/embed/3CeIsJsqkMc?si=PzlF_RAdFaJn_Ut6",
     "tags": ["python", "javascript"],
     "source_code": "https://github.com/fishblowbubbles/devastator/tree/master"
   },
   {
-    "id": 2,
+    "id": 3,
     "name": "PCB Cupid",
     "image": ["/mountains2.jpg"],
     "description": "E-commerce website for a PCB manufacturing company",
@@ -26,14 +41,14 @@
     "demo": "test"
   },
   {
-    "id": 3,
+    "id": 4,
     "name": "HealthyWays",
     "image": ["/mountains2.jpg"],
     "description": "A food ordering platform for healthy and home-cooked meals",
     "tags": ["react", "node", "mongodb", "redux", "material-ui"]
   },
   {
-    "id": 4,
+    "id": 5,
     "name": "VSCode Portfolio",
     "image": ["/mountains2.jpg"],
     "description": "A themeable and developer-centric portfolio based on the VSCode",

@@ -109,9 +109,10 @@ const ProjectDetailsModal = ({
                 href={projects[selectedProjectIndex].demo}
                 target="_blank"
                 rel="noopener noreferrer"
-                className={styles.underline}
+                className={styles.demoTag}
               >
-                Live Demo
+                Live Site{" "}
+                <Icon className={styles.icon} icon="bx:link-external" />
               </a>
             )}
           </div>
