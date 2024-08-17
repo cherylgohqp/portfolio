@@ -63,3 +63,21 @@
   cursor: pointer;
   color: white;
 }
+
+.imageSlider {
+  margin: 24px 32px;
+  /* top bottom | left right */
+}
+.projectDetails {
+  padding: 24px 32px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  padding-bottom: 24px;
+}
+
+.description {
+  padding-bottom: 24px;
+}

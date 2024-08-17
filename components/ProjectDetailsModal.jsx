@@ -45,13 +45,7 @@ const ProjectDetailsModal = ({
           <XCircleIcon className={styles.closeBtn} />
         </div>
 
-        <div
-          style={{
-            display: "flex",
-            alignItems: "center",
-            justifyContent: "center",
-          }}
-        >
+        <div className={styles.imageSlider}>
           <AutoplaySlider
             animation="scaleOutAnimation"
             // className="slider-image"
@@ -71,29 +65,35 @@ const ProjectDetailsModal = ({
           alt={projects[selectedProjectIndex].name}
         /> */}
         {/* <Video src={getStarted} /> */}
-        <h3>{projects[selectedProjectIndex].name}</h3>
-        <p>{projects[selectedProjectIndex].description}</p>
-        <div className={styles.cta}>
-          {projects[selectedProjectIndex].source_code && (
-            <a
-              href={projects[selectedProjectIndex].source_code}
-              target="_blank"
-              rel="noopener noreferrer"
-              className={styles.underline}
-            >
-              Source Code
-            </a>
-          )}
-          {projects[selectedProjectIndex].demo && (
-            <a
-              href={projects[selectedProjectIndex].demo}
-              target="_blank"
-              rel="noopener noreferrer"
-              className={styles.underline}
-            >
-              Live Demo
-            </a>
-          )}
+        <div className={styles.projectDetails}>
+          <h3 className={styles.header}>
+            {projects[selectedProjectIndex].name}
+          </h3>
+          <p className={styles.description}>
+            {projects[selectedProjectIndex].description}
+          </p>
+          <div className={styles.cta}>
+            {projects[selectedProjectIndex].source_code && (
+              <a
+                href={projects[selectedProjectIndex].source_code}
+                target="_blank"
+                rel="noopener noreferrer"
+                className={styles.underline}
+              >
+                Source Code
+              </a>
+            )}
+            {projects[selectedProjectIndex].demo && (
+              <a
+                href={projects[selectedProjectIndex].demo}
+                target="_blank"
+                rel="noopener noreferrer"
+                className={styles.underline}
+              >
+                Live Demo
+              </a>
+            )}
+          </div>
         </div>
 
         {/* Add any other relevant project details */}
