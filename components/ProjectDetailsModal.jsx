@@ -6,6 +6,8 @@ import Image from "next/image";
 import styles from "../styles/ProjectsPage.module.css";
 import { XCircleIcon } from "@heroicons/react/outline";
 import "react-awesome-slider/dist/styles.css";
+// import Video from "next-video";
+
 const AutoplaySlider = withAutoplay(AwesomeSlider);
 
 const ProjectDetailsModal = ({
@@ -74,6 +76,20 @@ const ProjectDetailsModal = ({
           <p className={styles.description}>
             {projects[selectedProjectIndex].description}
           </p>
+
+          <p
+            className={styles.additionalDetails}
+            dangerouslySetInnerHTML={{
+              __html: projects[selectedProjectIndex].details,
+            }}
+          />
+          <iframe
+            src={projects[selectedProjectIndex].video}
+            frameborder="0"
+            allowfullscreen
+            width="100%"
+            height="315"
+          />
           <div className={styles.cta}>
             {projects[selectedProjectIndex].source_code && (
               <a
