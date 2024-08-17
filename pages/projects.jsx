@@ -51,7 +51,6 @@ const ProjectsPage = ({ projects }) => {
             key={project.id}
             project={project}
             onClick={() => {
-              console.log("clicked!");
               handleProjectClick(index);
             }}
           />

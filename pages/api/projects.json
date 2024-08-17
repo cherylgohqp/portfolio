@@ -13,7 +13,7 @@
     "description": "Collaborated with a team of seven, under the guidance of the Defense Science Organization (DSO) National Laboratories, to design and develop a semi-autonomous reconnaissance robot for intelligence gathering in terrorist-occupied indoor spaces during a six-month project.",
     "details": "<br></br><strong><u>This robot features three core capabilities:</u></strong> <br></br> <ol><li>Real-time detection and location of potential terrorists and hostages</li> <li>Identification of weapon types</li> <li>Autonomous navigation</li></ol><br></br><strong><u>Advanced visual intelligence features includes:</u></strong> <br></br> <ol><li>Real-time facial recognition</li> <li>Landmark-Based Localization</li> <li>Object Detection Powered by CNNs</li> <li>Weapon Model Identification</li></ol> <br></br> <strong><u>Aural intelligence capabilities includes: </u></strong> <br></br> <ol><li>Gunshot localization</li> <li>Emotion classification</li> <li>Real-time mapping localization via  a mini map and report logs app done in Python and JavaScript</li></ol><br></br>Here's a short demo video!",
     "video": "https://www.youtube.com/embed/3CeIsJsqkMc?si=PzlF_RAdFaJn_Ut6",
-    "tags": ["python"],
+    "tags": ["python", "javascript"],
     "source_code": "https://github.com/fishblowbubbles/devastator/tree/master"
   },
   {
@@ -21,7 +21,7 @@
     "name": "PCB Cupid",
     "image": ["/mountains2.jpg"],
     "description": "E-commerce website for a PCB manufacturing company",
-    "tags": ["react", "node", "mongodb", "redux", "razorpay", "material-ui"],
+    "tags": ["react", "node", "mongodb", "redux", "material-ui"],
     "source_code": "https://github.com/fishblowbubbles/devastator/tree/master",
     "demo": "test"
   },
@@ -30,7 +30,7 @@
     "name": "HealthyWays",
     "image": ["/mountains2.jpg"],
     "description": "A food ordering platform for healthy and home-cooked meals",
-    "tags": ["react", "node", "mongodb", "redux", "razorpay", "material-ui"]
+    "tags": ["react", "node", "mongodb", "redux", "material-ui"]
   },
   {
     "id": 4,

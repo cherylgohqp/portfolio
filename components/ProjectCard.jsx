@@ -3,7 +3,6 @@ import styles from "../styles/ProjectCard.module.css";
 import { EyeIcon } from "@heroicons/react/outline";
 
 const ProjectCard = ({ project, onClick }) => {
-  project.tags.map((tag) => console.log(tag));
   return (
     <div className={styles.card} onClick={onClick}>
       <Image

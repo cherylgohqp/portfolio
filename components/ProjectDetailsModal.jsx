@@ -6,6 +6,8 @@ import Image from "next/image";
 import styles from "../styles/ProjectsPage.module.css";
 import { XCircleIcon } from "@heroicons/react/outline";
 import "react-awesome-slider/dist/styles.css";
+import { Icon } from "@iconify/react";
+
 // import Video from "next-video";
 
 const AutoplaySlider = withAutoplay(AwesomeSlider);
@@ -96,9 +98,10 @@ const ProjectDetailsModal = ({
                 href={projects[selectedProjectIndex].source_code}
                 target="_blank"
                 rel="noopener noreferrer"
-                className={styles.underline}
+                className={styles.tag}
               >
                 Source Code
+                <Icon className={styles.icon} icon="akar-icons:github-fill" />
               </a>
             )}
             {projects[selectedProjectIndex].demo && (
