@@ -16,12 +16,14 @@ const ProjectDetailsModal = ({
 }) => {
   const imagesMap = projects[selectedProjectIndex].image.map((image) => {
     return (
-      <div key={image}>
+      <div key={image} className={styles.sliderImageContainer}>
         <Image
           className={styles.projectimage}
           src={image}
-          height={450}
-          width={450}
+          //   height={450}
+          //   width={450}
+          layout="fill" // This makes the image fill its container
+          objectFit="cover"
           alt={projects[selectedProjectIndex].name}
         />
       </div>

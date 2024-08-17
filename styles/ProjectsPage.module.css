@@ -6,6 +6,8 @@
 }
 
 .modal {
+  display: flex !important;
+  justify-content: center;
   position: absolute;
   top: 0;
   /* max-height: 1100px;
@@ -21,6 +23,7 @@
   padding: 20px;
   border-radius: 5px;
   height: 100%;
+  max-width: 600px;
   /* Add additional styles for modal content appearance */
 }
 
@@ -80,4 +83,15 @@
 
 .description {
   padding-bottom: 24px;
+}
+
+.sliderImageContainer {
+  position: relative; /* This is necessary for layout="fill" to work */
+  width: 100%; /* Ensure it fills the width of the slider */
+  height: 100%; /* Ensure it fills the height of the slider */
+  overflow: hidden; /* Hide overflow to maintain aspect ratio */
+}
+
+.projectimage {
+  object-fit: cover;
 }
