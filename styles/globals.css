@@ -37,6 +37,13 @@
   background: rgba(118, 74, 188, 0.25);
 }
 
+.adobe-xd {
+  border: 0.1rem solid rgb(118, 74, 188);
+}
+.adobe-xd:hover {
+  background: rgba(118, 74, 188, 0.25);
+}
+
 .javascript {
   border: 0.1rem solid rgb(82, 143, 240);
 }

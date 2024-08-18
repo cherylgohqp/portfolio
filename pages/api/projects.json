@@ -30,7 +30,7 @@
     "name": "Simple CRUD Project",
     "image": ["/mountains2.jpg"],
     "description": "E-commerce website for a PCB manufacturing company",
-    "tags": ["react", "node", "mongodb", "redux", "material-ui"],
+    "tags": ["react", "javascript"],
     "source_code": "https://github.com/fishblowbubbles/devastator/tree/master",
     "video": "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F5HsLHH2V3iAYsQ6j3axiaD%2FCheryl's-Case-Study%3Fnode-id%3D4-41%26t%3DgXUmD01V8LZEi0LW-1%26scaling%3Dscale-down%26content-scaling%3Dfixed%26page-id%3D0%253A1%26starting-point-node-id%3D4%253A41",
     "demo": "https://www.figma.com/proto/5HsLHH2V3iAYsQ6j3axiaD/Cheryl's-Case-Study?node-id=4-41&t=gXUmD01V8LZEi0LW-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=4%3A41"
@@ -55,10 +55,18 @@
 
   {
     "id": 5,
-    "name": "HealthyWays",
-    "image": ["/mountains2.jpg"],
-    "description": "A food ordering platform for healthy and home-cooked meals",
-    "tags": ["react", "node", "mongodb", "redux", "material-ui"]
+    "name": "KCAL - UI Project 2019",
+    "image": [
+      "/kcal.jpg",
+      "/kcalBadges.jpg",
+      "/kcalBadges2.jpg",
+      "/kcalVisuals.jpg",
+      "/kcalVisuals2.jpg",
+      "/kcalVisuals3.jpg"
+    ],
+    "description": "As part of a team of five, we embarked on a two-month project to redesign a calorie counting app. Our objective was to apply a UI concept learned in class to enhance the app's usability and overall user experience.",
+    "details": "We chose to revamp the existing calorie counting app, focusing on improving its visual appeal and functionality through innovative design strategies. <br></br> <u><strong>Project Overview:</strong></u><br> This project centered on exploring the interplay between <strong>Visceral</strong> and <strong>Behavioral </strong> design to optimize user satisfaction in a health-related app. Our goal was to balance these design aspects to enhance the overall user experience and improve app ratings. We focused on redesigning a calorie counting app to align with the healthcare theme of our course, aiming to identify and implement the ideal balance that enhances user experience <br></br> <u><strong>Project Statement:</strong></u> <br></br> <li><strong>Problem:</strong> High user dropout rates in diet tracking apps due to tediousness (84%) and lack of ease of use (24%) (Laing et al., 2015)</li> <li><strong>User Feedback:</strong> Common complaints include apps being overly fanciful or cluttered with too much information</li> <li><strong>Objective:</strong> Redesign fitness apps to encourage continuous use by simplifying complexity</li><li><strong>Design Goal:</strong> Strike a balance between visceral appeal and functional complexity to avoid extremes that deter users</li>",
+    "tags": ["adobe-xd", "redux", "material-ui"]
   },
   {
     "id": 6,
