@@ -63,14 +63,6 @@ const ProjectDetailsModal = ({
             {imagesMap}
           </AutoplaySlider>
         </div>
-        {/* <Image
-          className={styles.projectimage}
-          src={projects[selectedProjectIndex].image}
-          height={450}
-          width={450}
-          alt={projects[selectedProjectIndex].name}
-        /> */}
-        {/* <Video src={getStarted} /> */}
         <div className={styles.projectDetails}>
           <h3 className={styles.header}>
             {projects[selectedProjectIndex].name}
@@ -112,6 +104,18 @@ const ProjectDetailsModal = ({
                 className={styles.demoTag}
               >
                 Live Site{" "}
+                <Icon className={styles.icon} icon="bx:link-external" />
+              </a>
+            )}
+
+            {projects[selectedProjectIndex].casestudy && (
+              <a
+                href={projects[selectedProjectIndex].casestudy}
+                target="_blank"
+                rel="noopener noreferrer"
+                className={styles.casestudy}
+              >
+                Case Study{" "}
                 <Icon className={styles.icon} icon="bx:link-external" />
               </a>
             )}

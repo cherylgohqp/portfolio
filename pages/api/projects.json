@@ -9,13 +9,34 @@
       "/teambondingP4D.jpg"
     ],
     "description": "P4D which stands for Podium For Development, is a next generation building design software powered by real-world supplier parts catalogue, for architects and building engineers to rapidly iterate on building designs using realistic contraints and computations.",
-    "details": "During my tenure at Lendlease, I thrived in an <u>agile</u> environment with <u>fortnightly sprints</u>, where I utilized <u>ReactJS frameworks</u> to design and develop dynamic components and features. <br></br> I played a key role in the overall website revamping, <u>developing</u> new interactive components and <u>integrating</u> new functionalities with <u>back-end APIs</u>, ensuring seamless and rapid deployment within our project timelines. <br></br> My efforts in developing Storybook components significantly <u>streamlined</u> our development processes and <u>enhanced overall efficiency</u>. Additionally, I implemented <u>Datadog integration</u> within our ReactJS application, providing comprehensive front-end monitoring and real-time user analytics. This optimization improved performance and ensured a seamless user experience.<br></br> Colleagues have praised my dedication to crafting <u>clean, modular, and well-documented</u> code, that delivers exceptional user experiences. My commitment to high-quality results and continuous learning from senior engineers has been pivotal in navigating the challenges of a dynamic development environment. <br></br> Here's a video featuring P4D:",
+    "details": "During my tenure at Lendlease, I thrived in an <u>agile</u> environment with <u>fortnightly sprints</u>, where I utilized <u>ReactJS frameworks</u> to design and develop dynamic components and features. <br></br> I played a key role in the overall website revamping, <u>developing</u> new interactive components and <u>integrating</u> new functionalities with <u>back-end APIs</u>, ensuring seamless and rapid deployment within our project timelines. <br></br> My efforts in developing Storybook components significantly <u>streamlined</u> our development processes and <u>enhanced overall efficiency</u>. Additionally, I implemented <u>Datadog integration</u> within our ReactJS application, providing comprehensive front-end monitoring and real-time user analytics. This optimization improved performance and ensured a seamless user experience. <br></br>Furthermore, I integrated <u>AI functionalities </u> for efficient document brief processing and information summarization, which greatly enhanced the application's capabilities and user productivity. <br></br> Colleagues have praised my dedication to crafting <u>clean, modular, and well-documented</u> code, that delivers exceptional user experiences. My commitment to high-quality results and continuous learning from senior engineers has been pivotal in navigating the challenges of a dynamic development environment. <br></br> Here's a video featuring P4D:",
     "video": "https://www.youtube.com/embed/87T0pawAGT8?si=D0MMeKBMWv8g9huc",
     "tags": ["reactjs", "typescript", "datadog"],
     "demo": ["https://www.lendleasepodium.com/products/podium-for-development/"]
   },
   {
     "id": 2,
+    "name": "UIUX Case Study",
+    "image": ["/Building.png"],
+    "description": "Engaged in case study research to further refine user interactions within the 3D scene, leading to enhanced user engagement and satisfaction",
+    "tags": ["figma", "miro"],
+    "details": "Case study research aside, I undertook a range of impactful initiatives as well: <br></br> <ol><li><strong>Competitive Analysis & Design Strategy</strong>:<br> Conducted comprehensive competitive analyses to shape design strategies, identifying key market trends and innovation opportunities.</li> <br><li><strong>User Research & Iterative Design:</strong> <br>Facilitated user research interviews to collect critical feedback, which drove iterative design enhancements and boosted overall user satisfaction</li> <br><li><strong>Design System Integration:</strong> <br>Played a pivotal role in conceptualizing and integrating Podium's Design System—a transformative initiative that significantly increased our design efficiency. By adopting the atomic design system methodology and utilizing <strong>Storybook</strong> as a centralized hub, we streamlined our design processes</li> <br> <li><strong>Design:</strong><br> Contributed significantly to the creation of designs for the P4D project in Figma</li> <br> <li><strong>Case Study Research: </strong>Engaged in case study research to further refine user interactions within the 3D scene, leading to enhanced user engagement and satisfaction</li></ol>",
+    "video": "https://1drv.ms/b/c/6e597db252d9b3e0/IQMswRb-yyRVRrJDUvZiVn5JAWBaik_aVRypDZmvnSsopEw",
+    "casestudy": "https://1drv.ms/b/c/6e597db252d9b3e0/ESzBFv7LJFVGskNS9mJWfkkBOq2VBFCWU32JgPWPjEcmtg?e=i1UOBr",
+    "demo": ["https://www.lendleasepodium.com/products/podium-for-development/"]
+  },
+  {
+    "id": 3,
+    "name": "Simple CRUD Project",
+    "image": ["/mountains2.jpg"],
+    "description": "E-commerce website for a PCB manufacturing company",
+    "tags": ["react", "node", "mongodb", "redux", "material-ui"],
+    "source_code": "https://github.com/fishblowbubbles/devastator/tree/master",
+    "video": "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F5HsLHH2V3iAYsQ6j3axiaD%2FCheryl's-Case-Study%3Fnode-id%3D4-41%26t%3DgXUmD01V8LZEi0LW-1%26scaling%3Dscale-down%26content-scaling%3Dfixed%26page-id%3D0%253A1%26starting-point-node-id%3D4%253A41",
+    "demo": "https://www.figma.com/proto/5HsLHH2V3iAYsQ6j3axiaD/Cheryl's-Case-Study?node-id=4-41&t=gXUmD01V8LZEi0LW-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=4%3A41"
+  },
+  {
+    "id": 4,
     "name": "Capstone Project 2019",
     "image": [
       "/CapstoneRobot2.jpg",
@@ -31,25 +52,16 @@
     "tags": ["python", "javascript"],
     "source_code": "https://github.com/fishblowbubbles/devastator/tree/master"
   },
+
   {
-    "id": 3,
-    "name": "UIUX Case Study",
-    "image": ["/mountains2.jpg"],
-    "description": "E-commerce website for a PCB manufacturing company",
-    "tags": ["react", "node", "mongodb", "redux", "material-ui"],
-    "source_code": "https://github.com/fishblowbubbles/devastator/tree/master",
-    "video": "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F5HsLHH2V3iAYsQ6j3axiaD%2FCheryl's-Case-Study%3Fnode-id%3D4-41%26t%3DgXUmD01V8LZEi0LW-1%26scaling%3Dscale-down%26content-scaling%3Dfixed%26page-id%3D0%253A1%26starting-point-node-id%3D4%253A41",
-    "demo": "https://www.figma.com/proto/5HsLHH2V3iAYsQ6j3axiaD/Cheryl's-Case-Study?node-id=4-41&t=gXUmD01V8LZEi0LW-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=4%3A41"
-  },
-  {
-    "id": 4,
+    "id": 5,
     "name": "HealthyWays",
     "image": ["/mountains2.jpg"],
     "description": "A food ordering platform for healthy and home-cooked meals",
     "tags": ["react", "node", "mongodb", "redux", "material-ui"]
   },
   {
-    "id": 5,
+    "id": 6,
     "name": "VSCode Portfolio",
     "image": ["/mountains2.jpg"],
     "description": "A themeable and developer-centric portfolio based on the VSCode",

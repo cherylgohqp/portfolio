@@ -16,17 +16,17 @@
   background: rgba(97, 218, 251, 0.25);
 }
 
-.node {
+.figma {
   border: 0.1rem solid rgb(131, 205, 41);
 }
-.node:hover {
+.figma:hover {
   background: rgba(131, 205, 41, 0.25);
 }
 
-.mongodb {
+.miro {
   border: 0.1rem solid rgb(67, 153, 52);
 }
-.mongodb:hover {
+.miro:hover {
   background: rgba(67, 153, 52, 0.25);
 }
 
