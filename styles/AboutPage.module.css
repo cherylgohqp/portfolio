@@ -1,4 +1,4 @@
-.about-me-container{
+.about-me-container {
   display: flex;
   justify-content: center;
   width: 100%;
@@ -7,36 +7,36 @@
   /* font-family: "Roboto", sans-serif; */
 }
 
-.overlay{
+.overlay {
   /* padding: 30px; */
   /* width: 100%;
   height: 100%; */
   box-shadow: inset 0 0 0 2000px rgba(15, 15, 15, 0.588);
 }
 
-.picture{
+.picture {
   width: 100%;
   height: 100%;
 }
 
-.content{
-  display:flex;
+.content {
+  display: flex;
   flex-direction: row;
   padding: 30px;
   width: 100%;
   height: 100%;
-  
+  overflow-y: auto;
 }
 
-.section-title{
+.section-title {
   padding-bottom: 16px;
 }
 
-.section-container{
+.section-container {
   padding-left: 24px;
 }
 
-.about{
+.about {
   line-height: 1.5em;
   margin-bottom: 15px;
   font-size: 16px;
