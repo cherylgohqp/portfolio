@@ -31,7 +31,6 @@ const ProjectDetailsModal = ({
           alt={projects[selectedProjectIndex].name}
         />
       </div>
-      //   <div key={image} data-src={image} />
     );
   });
 
@@ -50,7 +49,6 @@ const ProjectDetailsModal = ({
             title={`Video ${index + 1}`}
           />
         </div>
-        //   <div key={image} data-src={image} />
       );
     });
 
@@ -73,8 +71,6 @@ const ProjectDetailsModal = ({
         <div className={styles.imageSlider}>
           <AutoplaySlider
             animation="scaleOutAnimation"
-            // className="slider-image"
-            // cssModule={AwesomeSliderStyles}
             play={true}
             cancelOnInteraction={true}
             interval={4000}
@@ -100,9 +96,6 @@ const ProjectDetailsModal = ({
             projects[selectedProjectIndex].video.length > 0 && (
               <AutoplaySlider
                 animation="scaleOutAnimation"
-                // className="slider-image"
-                // cssModule={AwesomeSliderStyles}
-                // play={true}
                 cancelOnInteraction={true}
                 interval={4000}
               >
