@@ -12,7 +12,7 @@ const AboutPage = () => {
               className={classes["picture"]}
               alt="this is me"
               height={450}
-              width={750}
+              width={800}
             />
             <div className={classes["section-container"]}>
               <h1 className={classes["section-title"]}>About Me</h1>
