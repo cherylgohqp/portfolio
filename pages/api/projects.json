@@ -9,28 +9,45 @@
       "/teambondingP4D.jpg"
     ],
     "description": "P4D which stands for Podium For Development, is a next generation building design software powered by real-world supplier parts catalogue, for architects and building engineers to rapidly iterate on building designs using realistic contraints and computations.",
-    "details": "During my tenure at Lendlease, I thrived in an <u>agile</u> environment with <u>fortnightly sprints</u>, where I utilized <u>ReactJS frameworks</u> to design and develop dynamic components and features. <br></br> I played a key role in the overall website revamping, <u>developing</u> new interactive components and <u>integrating</u> new functionalities with <u>back-end APIs</u>, ensuring seamless and rapid deployment within our project timelines. <br></br> My efforts in developing Storybook components significantly <u>streamlined</u> our development processes and <u>enhanced overall efficiency</u>. Additionally, I implemented <u>Datadog integration</u> within our ReactJS application, providing comprehensive front-end monitoring and real-time user analytics. This optimization improved performance and ensured a seamless user experience. <br></br>Furthermore, I integrated <u>AI functionalities </u> for efficient document brief processing and information summarization, which greatly enhanced the application's capabilities and user productivity. <br></br> Colleagues have praised my dedication to crafting <u>clean, modular, and well-documented</u> code, that delivers exceptional user experiences. My commitment to high-quality results and continuous learning from senior engineers has been pivotal in navigating the challenges of a dynamic development environment. <br></br> Here's a video featuring P4D:",
-    "video": "https://www.youtube.com/embed/87T0pawAGT8?si=D0MMeKBMWv8g9huc",
-    "tags": ["reactjs", "typescript", "datadog"],
-    "demo": ["https://www.lendleasepodium.com/products/podium-for-development/"]
+    "details": "<br></br><iframe width='100%' height='315' src='https://www.youtube.com/embed/87T0pawAGT8?si=D0MMeKBMWv8g9huc' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe> <br></br>During my tenure at Lendlease, I thrived in an <u>agile</u> environment with <u>fortnightly sprints</u>, where I utilized <u>ReactJS frameworks</u> to design and develop dynamic components and features. <br></br> <strong><u>Some of my key contributions include:</u></strong><br></br><li>Overall dashboard revamping, developing new interactive components and integrating new functionalities with back-end APIs</li><li><strong>Storybook components development:</strong> Significantly streamlining the development processes and enhancing overall efficiency.</li><li><strong>Datadog integration:</strong> Provided comprehensive front-end monitoring and real-time user analytics within the ReactJS application, optimizing performance and ensuring a seamless user experience.</li><li><strong>AI integration:</strong> Enhanced the application’s capabilities and user productivity by enabling efficient document brief processing and information summarization</li><br></br> Colleagues have praised my dedication to crafting <u>clean, modular, and well-documented</u> code, that delivers exceptional user experiences. My commitment to high-quality results and continuous learning from senior engineers has been pivotal in navigating the challenges of a dynamic development environment. <br></br>Here are some of my features in action! <br></br> <iframe width='100%' height='315' src='https://www.youtube.com/embed/9fSdWgvYN3w?si=N-1kfc3bE7kwcaer' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe><br></br> <iframe width='100%' height='315' src='https://www.youtube.com/embed/VgHQKsR9G8s?si=-nsAZ0kd3muv3bNq' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe> ",
+    "tags": [
+      "reactjs",
+      "typescript",
+      "datadog"
+    ],
+    "demo": [
+      "https://www.lendleasepodium.com/products/podium-for-development/"
+    ]
   },
   {
     "id": 2,
     "name": "UIUX Case Study",
-    "image": ["/Building.png"],
+    "image": [
+      "/Building.png"
+    ],
     "description": "Engaged in case study research to further refine user interactions within the 3D scene, leading to enhanced user engagement and satisfaction",
-    "tags": ["figma", "miro"],
+    "tags": [
+      "figma",
+      "miro"
+    ],
     "details": "Case study research aside, I undertook a range of impactful initiatives as well: <br></br> <ol><li><strong>Competitive Analysis & Design Strategy</strong>:<br> Conducted comprehensive competitive analyses to shape design strategies, identifying key market trends and innovation opportunities.</li> <br><li><strong>User Research & Iterative Design:</strong> <br>Facilitated user research interviews to collect critical feedback, which drove iterative design enhancements and boosted overall user satisfaction</li> <br><li><strong>Design System Integration:</strong> <br>Played a pivotal role in conceptualizing and integrating Podium's Design System—a transformative initiative that significantly increased our design efficiency. By adopting the atomic design system methodology and utilizing <strong>Storybook</strong> as a centralized hub, we streamlined our design processes</li> <br> <li><strong>Design:</strong><br> Contributed significantly to the creation of designs for the P4D project in Figma</li> <br> <li><strong>Case Study Research: </strong>Engaged in case study research to further refine user interactions within the 3D scene, leading to enhanced user engagement and satisfaction</li></ol>",
     "video": "https://1drv.ms/b/c/6e597db252d9b3e0/IQMswRb-yyRVRrJDUvZiVn5JAWBaik_aVRypDZmvnSsopEw",
     "casestudy": "https://1drv.ms/b/c/6e597db252d9b3e0/ESzBFv7LJFVGskNS9mJWfkkBOq2VBFCWU32JgPWPjEcmtg?e=i1UOBr",
-    "demo": ["https://www.lendleasepodium.com/products/podium-for-development/"]
+    "demo": [
+      "https://www.lendleasepodium.com/products/podium-for-development/"
+    ]
   },
   {
     "id": 3,
     "name": "Simple CRUD Project",
-    "image": ["/mountains2.jpg"],
+    "image": [
+      "/mountains2.jpg"
+    ],
     "description": "E-commerce website for a PCB manufacturing company",
-    "tags": ["react", "javascript"],
+    "tags": [
+      "react",
+      "javascript"
+    ],
     "source_code": "https://github.com/fishblowbubbles/devastator/tree/master",
     "video": "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F5HsLHH2V3iAYsQ6j3axiaD%2FCheryl's-Case-Study%3Fnode-id%3D4-41%26t%3DgXUmD01V8LZEi0LW-1%26scaling%3Dscale-down%26content-scaling%3Dfixed%26page-id%3D0%253A1%26starting-point-node-id%3D4%253A41",
     "demo": "https://www.figma.com/proto/5HsLHH2V3iAYsQ6j3axiaD/Cheryl's-Case-Study?node-id=4-41&t=gXUmD01V8LZEi0LW-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=4%3A41"
@@ -49,10 +66,12 @@
     "description": "Collaborated with a team of seven, under the guidance of the Defense Science Organization (DSO) National Laboratories, to design and develop a semi-autonomous reconnaissance robot for intelligence gathering in terrorist-occupied indoor spaces during a six-month project.",
     "details": "<br></br><u><u>This robot features three core capabilities:</u></u> <br></br> <ol><li>Real-time detection and location of potential terrorists and hostages</li> <li>Identification of weapon types</li> <li>Autonomous navigation</li></ol><br></br><u><u>Advanced visual intelligence features includes:</u></u> <br></br> <ol><li>Real-time facial recognition</li> <li>Landmark-Based Localization</li> <li>Object Detection Powered by CNNs</li> <li>Weapon Model Identification</li></ol> <br></br> <u><u>Aural intelligence capabilities includes: </u></u> <br></br> <ol><li>Gunshot localization</li> <li>Emotion classification</li> <li>Real-time mapping localization via  a mini map and report logs app done in Python and JavaScript</li></ol><br></br>Here's a short demo video!",
     "video": "https://www.youtube.com/embed/3CeIsJsqkMc?si=PzlF_RAdFaJn_Ut6",
-    "tags": ["python", "javascript"],
+    "tags": [
+      "python",
+      "javascript"
+    ],
     "source_code": "https://github.com/fishblowbubbles/devastator/tree/master"
   },
-
   {
     "id": 5,
     "name": "KCAL - UI Project 2019",
@@ -66,13 +85,22 @@
     ],
     "description": "As part of a team of five, we embarked on a two-month project to redesign a calorie counting app. Our objective was to apply a UI concept learned in class to enhance the app's usability and overall user experience.",
     "details": "We chose to revamp the existing calorie counting app, focusing on improving its visual appeal and functionality through innovative design strategies. <br></br> <u><strong>Project Overview:</strong></u><br> This project centered on exploring the interplay between <strong>Visceral</strong> and <strong>Behavioral </strong> design to optimize user satisfaction in a health-related app. Our goal was to balance these design aspects to enhance the overall user experience and improve app ratings. We focused on redesigning a calorie counting app to align with the healthcare theme of our course, aiming to identify and implement the ideal balance that enhances user experience <br></br> <u><strong>Project Statement:</strong></u> <br></br> <li><strong>Problem:</strong> High user dropout rates in diet tracking apps due to tediousness (84%) and lack of ease of use (24%) (Laing et al., 2015)</li> <li><strong>User Feedback:</strong> Common complaints include apps being overly fanciful or cluttered with too much information</li> <li><strong>Objective:</strong> Redesign fitness apps to encourage continuous use by simplifying complexity</li><li><strong>Design Goal:</strong> Strike a balance between visceral appeal and functional complexity to avoid extremes that deter users</li>",
-    "tags": ["adobe-xd", "redux", "material-ui"]
+    "tags": [
+      "adobe-xd",
+      "redux",
+      "material-ui"
+    ]
   },
   {
     "id": 6,
     "name": "VSCode Portfolio",
-    "image": ["/mountains2.jpg"],
+    "image": [
+      "/mountains2.jpg"
+    ],
     "description": "A themeable and developer-centric portfolio based on the VSCode",
-    "tags": ["next", "css-modules"]
+    "tags": [
+      "next",
+      "css-modules"
+    ]
   }
 ]

@@ -77,6 +77,7 @@ const ProjectDetailsModal = ({
               __html: projects[selectedProjectIndex].details,
             }}
           />
+          { projects[selectedProjectIndex].video &&
           <iframe
             src={projects[selectedProjectIndex].video}
             frameborder="0"
@@ -84,6 +85,7 @@ const ProjectDetailsModal = ({
             width="100%"
             height="315"
           />
+          }
           <div className={styles.cta}>
             {projects[selectedProjectIndex].source_code && (
               <a
