@@ -35,6 +35,25 @@ const ProjectDetailsModal = ({
     );
   });
 
+  const videosMap =
+    projects[selectedProjectIndex].video &&
+    projects[selectedProjectIndex].video.map((videoUrl, index) => {
+      return (
+        <div key={videoUrl} className={styles.sliderVideoContainer}>
+          <iframe
+            key={index}
+            src={videoUrl}
+            frameBorder="0"
+            allowFullScreen
+            width="100%"
+            height="315"
+            title={`Video ${index + 1}`}
+          />
+        </div>
+        //   <div key={image} data-src={image} />
+      );
+    });
+
   return (
     <Modal
       className={styles.modal}
@@ -77,15 +96,20 @@ const ProjectDetailsModal = ({
               __html: projects[selectedProjectIndex].details,
             }}
           />
-          { projects[selectedProjectIndex].video &&
-          <iframe
-            src={projects[selectedProjectIndex].video}
-            frameborder="0"
-            allowfullscreen
-            width="100%"
-            height="315"
-          />
-          }
+          {projects[selectedProjectIndex].video &&
+            projects[selectedProjectIndex].video.length > 0 && (
+              <AutoplaySlider
+                animation="scaleOutAnimation"
+                // className="slider-image"
+                // cssModule={AwesomeSliderStyles}
+                // play={true}
+                cancelOnInteraction={true}
+                interval={4000}
+              >
+                {videosMap}
+              </AutoplaySlider>
+            )}
+
           <div className={styles.cta}>
             {projects[selectedProjectIndex].source_code && (
               <a

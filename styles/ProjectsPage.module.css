@@ -127,6 +127,11 @@
   margin: 16px 8px;
   /* top bottom | left right */
 }
+
+.sliderVideoContainer {
+  width: 100%;
+}
+
 .projectDetails {
   padding: 24px 8px;
   color: white;
