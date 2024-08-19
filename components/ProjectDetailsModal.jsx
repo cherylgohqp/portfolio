@@ -36,6 +36,7 @@ const ProjectDetailsModal = ({
 
   const videosMap =
     projects[selectedProjectIndex].video &&
+    projects[selectedProjectIndex].video.length > 0 &&
     projects[selectedProjectIndex].video.map((videoUrl, index) => {
       return (
         <div key={videoUrl} className={styles.sliderVideoContainer}>
