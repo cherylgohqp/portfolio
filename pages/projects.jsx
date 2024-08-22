@@ -8,16 +8,8 @@ import ProjectDetailsModal from "../components/ProjectDetailsModal";
 // import { Icon } from "@iconify/react";
 
 // import Video from "next-video";
-// import getStarted from "/videos/get-started.mp4";
-
-// export default function Page() {
-//   return <Video src={getStarted} />;
-// }
 
 const ProjectsPage = ({ projects }) => {
-  // const [currentImage, setCurrentImage] = useState(0);
-  // const [isOpen, setisOpen] = useState(false);
-  // const [currentIndex, setCurrentIndex] = useState(0);
   const [selectedProjectIndex, setSelectedProjectIndex] = useState(null);
   const [showModal, setShowModal] = useState(false);
 
