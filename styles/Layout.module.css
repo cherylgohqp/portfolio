@@ -20,13 +20,13 @@
   scroll-behavior: smooth;
 }
 
-.content {
-  scrollbar-width: 10px;
+/* .content {
+  scrollbar-width: 6px;
   scrollbar-color: var(--accent-color);
-}
+} */
 
 .content::-webkit-scrollbar {
-  width: 15px;
+  width: 8px;
 }
 
 .content::-webkit-scrollbar-track {
@@ -35,6 +35,7 @@
 }
 
 .content::-webkit-scrollbar-thumb {
+  border-radius: 4px;
   background: var(--scrollbar-thumb-bg);
   border-left: 1px solid #1e1f29;
 }

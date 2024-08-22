@@ -13,7 +13,7 @@
 }
 
 .overlay::-webkit-scrollbar {
-  width: 4px;
+  width: 6px;
   height: 4px;
 }
 

@@ -11,8 +11,6 @@
   align-items: center;
   position: absolute;
   top: 0;
-  /* max-height: 1100px;
-  max-width: 800px; */
   width: 100%;
   height: 100%; /* Cover the entire viewport */
   background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay */
@@ -28,6 +26,20 @@
   max-height: 580px;
   overflow-y: auto;
   /* Add additional styles for modal content appearance */
+}
+
+.modalContent::-webkit-scrollbar {
+  width: 6px;
+  height: 4px;
+}
+
+.modalContent::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background: var(--scrollbar-thumb-bg);
+}
+.modalContent::-webkit-scrollbar-track {
+  background: var(--scrollbar-track-bg);
+  border-left: 1px solid #1e1f29;
 }
 
 .cta {
