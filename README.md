@@ -51,3 +51,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 next video reference: https://next-video.dev/docs
 npx next-video sync
+
+### using prettier
+
+https://prettier.io/docs/en/install

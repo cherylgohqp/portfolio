@@ -1,25 +1,23 @@
-@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600&display=swap");
 
 .main {
   display: flex;
   /* background: var(--main-bg); */
-  background-image: url('/mountains2.jpg');
+  background-image: url("/mountains2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center; 
+  background-position: center;
   box-shadow: inset 0 0 0 2000px rgba(15, 15, 15, 0.588);
-  
 }
 
 .content {
   padding: 2rem;
   color: var(--text-color);
-  font-family: 'JetBrains Mono', monospace;
+  font-family: "JetBrains Mono", monospace;
   flex: 1;
-  height: 85vh;
+  height: 85vh; /* this is the height available for the content below the tabs */
   overflow-y: auto;
   scroll-behavior: smooth;
-
 }
 
 .content {

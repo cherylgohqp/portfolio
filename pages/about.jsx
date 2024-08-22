@@ -7,13 +7,6 @@ const AboutPage = () => {
       <div className={classes["about-me-container"]}>
         <div className={classes["overlay"]}>
           <div className={classes["content"]}>
-            <Image
-              src="/Me.jpg"
-              className={classes["picture"]}
-              alt="this is me"
-              height={450}
-              width={800}
-            />
             <div className={classes["section-container"]}>
               <h1 className={classes["section-title"]}>About Me</h1>
               <p className={classes["about"]}>
@@ -43,7 +36,7 @@ const AboutPage = () => {
                   <span>Python</span>
                 </li>
                 <li>
-                  <span>ReactJS</span>
+                  <span>React</span>
                 </li>
                 <li>
                   <span>TypeScript</span>
@@ -56,6 +49,15 @@ const AboutPage = () => {
                 </li>
               </ul>
               {/* maybe can add some testimonial part here? */}
+              <div className={classes["picture"]}>
+                <Image
+                  src="/Me-cropped.jpg"
+                  alt="this is me"
+                  height={800}
+                  width={800}
+                  objectFit="cover"
+                />
+              </div>
             </div>
           </div>
         </div>

@@ -3,29 +3,30 @@
   justify-content: center;
   width: 100%;
   height: 100%;
-  /* flex-direction: column; */
   /* font-family: "Roboto", sans-serif; */
 }
 
 .overlay {
-  /* padding: 30px; */
-  /* width: 100%;
-  height: 100%; */
-  box-shadow: inset 0 0 0 2000px rgba(15, 15, 15, 0.588);
-}
-
-.picture {
-  width: 100%;
   height: 100%;
+  overflow-y: auto;
+  box-shadow: inset 0 0 0 2000px rgba(15, 15, 15, 0.588);
 }
 
 .content {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   padding: 30px;
   width: 100%;
-  height: 100%;
-  overflow-y: auto;
+  height: 85vh; /* matches the height for parent content layout */
+  top: 0;
+  left: 0;
+  position: relative;
+}
+
+.picture {
+  padding: 24px 0;
+  height: auto;
+  width: 100%;
 }
 
 .section-title {
