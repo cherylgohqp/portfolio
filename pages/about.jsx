@@ -15,7 +15,7 @@ const AboutPage = () => {
                 webapps.
                 <br></br>
                 <br></br>My coding journey began with Python and Java, and now
-                I'm mainly working with React, typescript and SCSS.
+                I'm mainly working with React, Typescript and SCSS.
                 <br></br>
                 <br></br>When I'm not coding, you might find me sweating it out
                 at dance classes or going on nature trail walks!

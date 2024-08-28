@@ -16,7 +16,8 @@
   /* color: var(--accent-color); */
   justify-content: center;
   align-items: center;
-  padding-left: 40px;
+  /* padding-left: 40px; */
+  /* tentatively hide the padding on landing page */
 }
 
 .welcome {
