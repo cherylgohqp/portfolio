@@ -6,7 +6,7 @@ const CustomHead = ({ title }) => {
       <title>{title}</title>
       <meta
         name="description"
-        content="Cheryl is an avid front-end engineer by day, a dancer by night!"
+        content="Cheryl is an avid software engineer by day, a dancer by night!"
       />
       <meta
         name="keywords"
@@ -15,25 +15,25 @@ const CustomHead = ({ title }) => {
       <meta property="og:title" content="Cheryl's Portfolio" />
       <meta
         property="og:description"
-        content="A front-end engineer by day, A dancer by night"
+        content="A software engineer by day, A dancer by night"
       />
       <meta property="og:image:width" content="1200" />
       <meta property="og:image:height" content="627" />
       <meta
         property="og:image"
-        content="https://cherriel-designs.vercel.app/me.jpeg"
+        content="https://cherriel-designs.vercel.app/Me-cropped.jpg"
       />
       <meta property="og:url" content="https://cherriel-designs.vercel.app" />
       <meta property="og:type" content="website" />
       <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:title" content="Cheryl Goh | Front End Developer" />
+      <meta name="twitter:title" content="Cheryl Goh | Software Engineer" />
       <meta
         name="twitter:description"
-        content="A front-end engineer by day, A dancer by night"
+        content="A software engineer by day, A dancer by night"
       />
       <meta
         name="twitter:image"
-        content="https://cherriel-designs.vercel.app/me.jpeg"
+        content="https://cherriel-designs.vercel.app/Me-cropped.jpg"
       />
     </Head>
   );

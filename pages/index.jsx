@@ -12,7 +12,7 @@ export default function HomePage() {
             <h1 className={styles.name}>Cheryl Goh</h1>
             <h6 className={styles.bio}>
               {" "}
-              Front End Engineer By Day, Dancer By Night
+              Software Engineer By Day, Dancer By Night
             </h6>
             <div className={styles.buttonContainer}>
               <Link href="/projects">
