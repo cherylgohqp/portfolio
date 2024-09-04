@@ -20,11 +20,6 @@
   scroll-behavior: smooth;
 }
 
-/* .content {
-  scrollbar-width: 6px;
-  scrollbar-color: var(--accent-color);
-} */
-
 .content::-webkit-scrollbar {
   width: 8px;
 }
