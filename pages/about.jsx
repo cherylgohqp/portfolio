@@ -6,6 +6,7 @@ const AboutPage = () => {
     "React",
     "Typescript",
     "Javascript",
+    "NodeJs",
     "SCSS",
     "HTML",
     "Java",
@@ -44,7 +45,7 @@ const AboutPage = () => {
                   );
                 })}
               </ul>
-              {/* maybe can add some testimonial part here? */}
+              {/* future work: maybe I can add some testimonials here */}
               <div className={classes["picture"]}>
                 <Image
                   src="/Me-cropped.jpg"

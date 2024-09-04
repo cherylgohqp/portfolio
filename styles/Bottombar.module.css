@@ -30,13 +30,8 @@
   height: 24px;
   align-items: center;
   padding: 0 0.2rem;
-  /* cursor: pointer; */
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
 }
-
-/* .section:hover {
-  background: var(--bottombar-hover-bg);
-} */
 
 @media screen and (max-width: 600px) {
   .bottomBar {

@@ -6,7 +6,6 @@ import { useState } from "react";
 import ProjectDetailsModal from "../components/ProjectDetailsModal";
 
 // import { Icon } from "@iconify/react";
-
 // import Video from "next-video";
 
 const ProjectsPage = ({ projects }) => {
