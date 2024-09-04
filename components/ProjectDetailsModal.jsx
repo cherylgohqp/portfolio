@@ -24,8 +24,6 @@ const ProjectDetailsModal = ({
         <Image
           className={styles.projectimage}
           src={image}
-          //   height={450}
-          //   width={450}
           layout="fill" // This makes the image fill its container
           objectFit="contain"
           alt={projects[selectedProjectIndex].name}
@@ -43,7 +41,6 @@ const ProjectDetailsModal = ({
           <iframe
             key={index}
             src={videoUrl}
-            frameBorder="0"
             allowFullScreen
             width="100%"
             height="315"
@@ -141,10 +138,6 @@ const ProjectDetailsModal = ({
             )}
           </div>
         </div>
-
-        {/* Add any other relevant project details */}
-        {/* </div> */}
-        {/* <div className={styles.modalOverlay} onClick={handleModalClose} />  this allows the closing of modal when user clicks outside of the modal */}
       </div>
     </Modal>
   );
