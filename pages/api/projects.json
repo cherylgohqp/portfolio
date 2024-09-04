@@ -34,14 +34,14 @@
     "id": 3,
     "name": "Simple To-do List",
     "image": [
-      "/kcal.jpg",
-      "/kcalBadges.jpg",
-      "/kcalBadges2.jpg",
-      "/kcalVisuals.jpg",
-      "/kcalVisuals2.jpg",
-      "/kcalVisuals3.jpg"
+      "/wombat.png",
+      "/todo1.png",
+      "/todo2.png",
+      "/todo3.png",
+      "/todo4.png",
+      "/todo5.png"
     ],
-    "description": "A simple to-do list application created using React and TypeScript, demonstrating CRUD (Create, Read, Update, Delete) processes.",
+    "description": "A simple to-do list application created using React and TypeScript inclusive of simple form validation checks, demonstrating CRUD (Create, Read, Update, Delete) operations.",
     "details": "<br><div style='line-height: 1.6; color: #333;'> <u style='color: #FFFFFF;'><strong>Features:</strong></u><br></br> <ul style='padding-left: 20px;color: #FFFFFF;'> <li><strong style='color: #4682B4;'>Add New Tasks:</strong> Users can create tasks by providing a title and description.</li><li><strong style='color: #6A5ACD;'>Edit Tasks:</strong> Existing tasks can be updated with new information.</li> <li><strong style='color: #FFD700;'>Delete Tasks:</strong> Users can remove tasks from their list.</li></ul><br><u style='color: #FFFFFF;'><strong>Technical Overview:</strong></u><br></br><ul style='padding-left: 20px; color: #FFFFFF;'> <li><strong style='color: #FF6347;'>Data Storage:</strong> Task data is stored in MongoDB, a NoSQL database that offers flexible schema and scalability.</li> <li><strong style='color: #2E8B57;'>Backend Integration:</strong> A separate Node.js server, utilizing Express.js, serves as an intermediary between the React frontend and the MongoDB database. This server handles API requests for creating, reading, updating, and deleting tasks.</li> <li><strong style='color: #B5DB7F;'>API Implementation: </strong>The Express.js server exposes RESTful API endpoints that facilitate communication between the React application and the MongoDB database, ensuring seamless data transactions and updates.</li></ul><br><u style='color: #FFFFFF;'><strong>Future Enhancements:</strong></u><br></br><ul style='padding-left: 20px;color: #FFFFFF;'> <li><strong style='color: #4682B4;'>Add Due Dates:</strong> Implement functionality to set and manage due dates for tasks.</li><li><strong style='color: #6A5ACD;'>Task Completion Checkboxes:</strong> Introduce checkboxes to mark tasks as completed.</li></ul></div>",
     "tags": ["react", "typescript", "mongodb", "nodejs"],
     "demo": ["https://simple-todo-list-project.vercel.app/"],
