@@ -23,7 +23,7 @@
   border-radius: 5px;
   height: 100%;
   max-width: 700px;
-  max-height: 580px;
+  max-height: 600px;
   overflow-y: auto;
   /* Add additional styles for modal content appearance */
 }
@@ -72,7 +72,7 @@
   display: inline-flex; /* Align text and icon horizontally */
   align-items: center; /* Center items vertically */
   padding: 0.5rem 1rem; /* Add padding around the text and icon */
-  background-color: #0c2340; /* Background color */
+  background-color: #d3a0f1; /* Background color */
   color: #fff; /* Text color */
   border-radius: 20px; /* Rounded corners for pill effect */
   text-decoration: none; /* Remove underline */
@@ -81,14 +81,14 @@
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.3); /* Initial shadow effect */
 }
 .demoTag:hover {
-  box-shadow: 0 0 8px #007fff; /* Glowing shadow effect on hover */
+  box-shadow: 0 0 8px #e2c0f5; /* Glowing shadow effect on hover */
 }
 
 .casestudy {
   display: inline-flex; /* Align text and icon horizontally */
   align-items: center; /* Center items vertically */
   padding: 0.5rem 1rem; /* Add padding around the text and icon */
-  background-color: #40290c; /* Background color */
+  background-color: #ffb6c1; /* Background color */
   color: #fff; /* Text color */
   border-radius: 20px; /* Rounded corners for pill effect */
   text-decoration: none; /* Remove underline */
@@ -97,7 +97,7 @@
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.3); /* Initial shadow effect */
 }
 .casestudy:hover {
-  box-shadow: 0 0 8px #ab6e20; /* Glowing shadow effect on hover */
+  box-shadow: 0 0 8px #fac3cb; /* Glowing shadow effect on hover */
 }
 
 .underline {

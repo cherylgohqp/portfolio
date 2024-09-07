@@ -55,3 +55,11 @@ npx next-video sync
 ### using prettier
 
 https://prettier.io/docs/en/install
+
+### color palette:
+
+#F78888
+#F3D250
+#B0E57C
+#90CCF4
+#5DA2D5
