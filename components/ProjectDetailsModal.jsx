@@ -43,7 +43,7 @@ const ProjectDetailsModal = ({
             src={videoUrl}
             allowFullScreen
             width="100%"
-            height="315"
+            height="100%"
             title={`Video ${index + 1}`}
           />
         </div>
