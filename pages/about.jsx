@@ -14,6 +14,7 @@ const AboutPage = () => {
     "Git",
     "Gitlab",
     "Visual Studios",
+    "MongoDB",
   ];
   return (
     <>

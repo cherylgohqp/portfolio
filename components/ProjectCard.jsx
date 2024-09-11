@@ -7,9 +7,9 @@ const ProjectCard = ({ project, onClick }) => {
     <div className={styles.card} onClick={onClick}>
       <Image
         src={project.image[0]}
-        objectFit="fill"
-        height={450}
-        width={450}
+        objectFit="contain"
+        height={350}
+        width={350}
         alt={project.name}
         className={styles.image}
       />

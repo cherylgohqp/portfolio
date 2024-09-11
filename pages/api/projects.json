@@ -41,7 +41,7 @@
       "/todo4.png",
       "/todo5.png"
     ],
-    "description": "A simple to-do list application created using React and TypeScript inclusive of simple form validation checks, demonstrating CRUD (Create, Read, Update, Delete) operations.",
+    "description": "A full-stack simple to-do list application built using Express.js for the backend API calls and React Typescript for the frontend user interface, inclusive of simple form validation checks, demonstrating CRUD (Create, Read, Update, Delete) operations.",
     "details": "<br><div style='line-height: 1.6; color: #333;'> <u style='color: #FFFFFF;'><strong>Features:</strong></u> <br></br> <ul style='padding-left: 20px; color: #FFFFFF;'> <li><strong style='color: #F78888;'>Add New Tasks:</strong> Users can create tasks by providing a title and description.</li> <li><strong style='color: #F3D250;'>Edit Tasks:</strong> Existing tasks can be updated with new information.</li> <li><strong style='color: #B0E57C;'>Delete Tasks:</strong> Users can remove tasks from their list.</li> <li><strong style='color: #90CCF4;'>Input Validation:</strong> Handled cases where users try to submit empty task titles and descriptions. Buttons are disabled when task titles and descriptions are missing. Enforced word limits for titles and descriptions to ensure concise inputs.</li></ul> <br> <u style='color: #FFFFFF;'><strong>Technical Overview:</strong></u><br></br> <ul style='padding-left: 20px; color: #FFFFFF;'> <li><strong style='color: #5DA2D5;'>Data Storage:</strong> Task data is stored in MongoDB, a NoSQL database that offers flexible schema and scalability.</li> <li><strong style='color: #F78888;'>Backend Integration:</strong> A separate Node.js server, utilizing Express.js, serves as an intermediary between the React frontend and the MongoDB database. This server handles API requests for creating, reading, updating, and deleting tasks.</li> <li><strong style='color: #F3D250;'>API Implementation:</strong> The Express.js server exposes RESTful API endpoints that facilitate communication between the React application and the MongoDB database, ensuring seamless data transactions and updates.</li></ul><br><u style='color: #FFFFFF;'><strong>Future Enhancements:</strong></u><br></br><ul style='padding-left: 20px; color: #FFFFFF;'> <li><strong style='color: #B0E57C;'>Add Due Dates:</strong> Implement functionality to set and manage due dates for tasks.</li><li><strong style='color: #90CCF4;'>Task Completion Checkboxes:</strong> Introduce checkboxes to mark tasks as completed.</li></ul></div>",
     "tags": ["react", "typescript", "mongodb", "nodejs"],
     "demo": ["https://simple-todo-list-project.vercel.app/"],
@@ -49,6 +49,21 @@
   },
   {
     "id": 4,
+    "name": "Simple Movie Review",
+    "image": [
+      "/movie-review1.png",
+      "/movie-review3.png",
+      "/movie-review4.png",
+      "/movie-review2.png"
+    ],
+    "description": "A full-stack simple movie review web application built using Java Spring Boot for the backend API and ReactJS for the frontend user interface. The application includes skeleton loaders to enhance user experience and simple form validation checks to enhance data integrity.",
+    "details": "<br><div style='line-height: 1.6; color: #333;'> <u style='color: #FFFFFF;'><strong>Features:</strong></u> <br></br> <ul style='padding-left: 20px; color: #FFFFFF;'> <li><strong style='color: #F78888;'>Add Movie Reviews:</strong> Users can write and submit reviews for their favorite movies.</li> <li><strong style='color: #F3D250;'>View Movie Trailers:</strong> Users can view movie trailers.</li> <li><strong style='color: #B0E57C;'>Input Validation:</strong> Submit button is disabled if the review form is empty.</li> <li><strong style='color: #90CCF4;'>Add Movie Reviews:</strong> Users can write and submit reviews for their favorite movies.</li> <li><strong style='color: #5DA2D5;'>Skeleton Loaders:</strong> Skeleton loaders to serve as a placeholder while retrieving data from the database.</li> </ul> <br> <u style='color: #FFFFFF;'><strong>Technical Overview:</strong></u><br></br> <ul style='padding-left: 20px; color: #FFFFFF;'> <li><strong style='color: #F78888;'>Data Storage:</strong> Task data is stored in MongoDB, a NoSQL database that offers flexible schema and scalability.</li> <li><strong style='color: #F3D250;'>Backend Integration:</strong> A separate Java Springboot server serves as an intermediary between the React frontend and the MongoDB database. This server handles API requests for getting the movies and reviews from MongoDb as well as posting new movie reviews.</li> </ul><br><u style='color: #FFFFFF;'><strong>Future Enhancements:</strong></u><br></br><ul style='padding-left: 20px; color: #FFFFFF;'> <li><strong style='color: #B0E57C;'>User Authentication:</strong> Allow users to create accounts, login and manage profiles.</li><li><strong style='color: #90CCF4;'>Browse Movies:</strong> Users can explore a vast collection of movies with their respective information.</li> <li><strong style='color: #5DA2D5;'> Skeleton Loaders for Reviews:</strong> Implement skeleton loaders for reviews page.</li></ul></div>",
+    "tags": ["react", "javascript", "springboot", "mongodb", "java"],
+    "demo": ["https://simple-movie-review.vercel.app/"],
+    "source_code": ["https://github.com/cherylgohqp/simple-movie-review-client"]
+  },
+  {
+    "id": 5,
     "name": "Capstone Project 2019",
     "image": [
       "/CapstoneRobot2.jpg",
@@ -65,7 +80,7 @@
     "source_code": "https://github.com/fishblowbubbles/devastator/tree/master"
   },
   {
-    "id": 5,
+    "id": 6,
     "name": "KCAL - UI Project 2019",
     "image": [
       "/kcal.jpg",
