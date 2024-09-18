@@ -9,7 +9,7 @@ const contactItems = [
   {
     social: "email",
     link: "cheryl_goh@alumni.sutd.edu.sg",
-    href: "cheryl_goh@alumni.sutd.edu.sg",
+    href: "mailto:cheryl_goh@alumni.sutd.edu.sg",
   },
   {
     social: "linkedin",
