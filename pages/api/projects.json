@@ -14,21 +14,34 @@
       "https://www.youtube.com/embed/9fSdWgvYN3w?si=N-1kfc3bE7kwcaer",
       "https://www.youtube.com/embed/VgHQKsR9G8s?si=-nsAZ0kd3muv3bNq"
     ],
-    "tags": ["react", "typescript", "datadog"],
-    "demo": ["https://www.lendleasepodium.com/products/podium-for-development/"]
+    "tags": [
+      "react",
+      "typescript",
+      "datadog"
+    ],
+    "demo": [
+      "https://www.lendleasepodium.com/products/podium-for-development/"
+    ]
   },
   {
     "id": 2,
     "name": "UIUX Case Study",
-    "image": ["/Building.png"],
+    "image": [
+      "/Building.png"
+    ],
     "description": "Engaged in case study research to further refine user interactions within the 3D scene, leading to enhanced user engagement and satisfaction",
-    "tags": ["figma", "miro"],
+    "tags": [
+      "figma",
+      "miro"
+    ],
     "details": "Case study research aside, I undertook a range of impactful initiatives as well: <br></br> <ol><li><strong style='color: #F78888;'>Competitive Analysis & Design Strategy</strong>:<br> Conducted comprehensive competitive analyses to shape design strategies, identifying key market trends and innovation opportunities.</li> <br><li><strong style='color: #F3D250;'>User Research & Iterative Design:</strong> <br>Facilitated user research interviews to collect critical feedback, which drove iterative design enhancements and boosted overall user satisfaction</li> <br><li><strong style='color: #B0E57C;'>Design System Integration:</strong> <br>Played a pivotal role in conceptualizing and integrating Podium's Design System—a transformative initiative that significantly increased our design efficiency. By adopting the atomic design system methodology and utilizing <strong>Storybook</strong> as a centralized hub, we streamlined our design processes</li> <br> <li><strong style='color: #90CCF4;'>Design:</strong><br> Contributed significantly to the creation of designs for the P4D project in Figma</li> <br> <li><strong style='color: #5DA2D5;'>Case Study Research: </strong>Engaged in case study research to further refine user interactions within the 3D scene, leading to enhanced user engagement and satisfaction</li></ol>",
     "video": [
       "https://1drv.ms/b/c/6e597db252d9b3e0/IQMswRb-yyRVRrJDUvZiVn5JAWBaik_aVRypDZmvnSsopEw"
     ],
     "casestudy": "https://1drv.ms/b/c/6e597db252d9b3e0/ESzBFv7LJFVGskNS9mJWfkkBOq2VBFCWU32JgPWPjEcmtg?e=i1UOBr",
-    "demo": ["https://www.lendleasepodium.com/products/podium-for-development/"]
+    "demo": [
+      "https://www.lendleasepodium.com/products/podium-for-development/"
+    ]
   },
   {
     "id": 3,
@@ -43,9 +56,18 @@
     ],
     "description": "A full-stack simple to-do list application built using Express.js for the backend API calls and React Typescript for the frontend user interface, inclusive of simple form validation checks, demonstrating CRUD (Create, Read, Update, Delete) operations.",
     "details": "<br><div style='line-height: 1.6; color: #333;'> <u style='color: #FFFFFF;'><strong>Features:</strong></u> <br></br> <ul style='padding-left: 20px; color: #FFFFFF;'> <li><strong style='color: #F78888;'>Add New Tasks:</strong> Users can create tasks by providing a title and description.</li> <li><strong style='color: #F3D250;'>Edit Tasks:</strong> Existing tasks can be updated with new information.</li> <li><strong style='color: #B0E57C;'>Delete Tasks:</strong> Users can remove tasks from their list.</li> <li><strong style='color: #90CCF4;'>Input Validation:</strong> Handled cases where users try to submit empty task titles and descriptions. Buttons are disabled when task titles and descriptions are missing. Enforced word limits for titles and descriptions to ensure concise inputs.</li></ul> <br> <u style='color: #FFFFFF;'><strong>Technical Overview:</strong></u><br></br> <ul style='padding-left: 20px; color: #FFFFFF;'> <li><strong style='color: #5DA2D5;'>Data Storage:</strong> Task data is stored in MongoDB, a NoSQL database that offers flexible schema and scalability.</li> <li><strong style='color: #F78888;'>Backend Integration:</strong> A separate Node.js server, utilizing Express.js, serves as an intermediary between the React frontend and the MongoDB database. This server handles API requests for creating, reading, updating, and deleting tasks.</li> <li><strong style='color: #F3D250;'>API Implementation:</strong> The Express.js server exposes RESTful API endpoints that facilitate communication between the React application and the MongoDB database, ensuring seamless data transactions and updates.</li></ul><br><u style='color: #FFFFFF;'><strong>Future Enhancements:</strong></u><br></br><ul style='padding-left: 20px; color: #FFFFFF;'> <li><strong style='color: #B0E57C;'>Add Due Dates:</strong> Implement functionality to set and manage due dates for tasks.</li><li><strong style='color: #90CCF4;'>Task Completion Checkboxes:</strong> Introduce checkboxes to mark tasks as completed.</li></ul></div>",
-    "tags": ["react", "typescript", "mongodb", "nodejs"],
-    "demo": ["https://simple-todo-list-project.vercel.app/"],
-    "source_code": ["https://github.com/cherylgohqp/simple-todo-list"]
+    "tags": [
+      "react",
+      "typescript",
+      "mongodb",
+      "nodejs"
+    ],
+    "demo": [
+      "https://simple-todo-list-project.vercel.app/"
+    ],
+    "source_code": [
+      "https://github.com/cherylgohqp/simple-todo-list"
+    ]
   },
   {
     "id": 4,
@@ -54,13 +76,26 @@
       "/movie-review1.png",
       "/movie-review3.png",
       "/movie-review4.png",
-      "/movie-review2.png"
+      "/movie-review7.png",
+      "/movie-review2.png",
+      "/movie-review5.png",
+      "/movie-review6.png"
     ],
     "description": "A full-stack simple movie review web application built using Java Spring Boot for the backend API and ReactJS for the frontend user interface. The application includes skeleton loaders to enhance user experience and simple form validation checks to enhance data integrity.",
-    "details": "<br><div style='line-height: 1.6; color: #333;'> <u style='color: #FFFFFF;'><strong>Features:</strong></u> <br></br> <ul style='padding-left: 20px; color: #FFFFFF;'> <li><strong style='color: #F78888;'>Add Movie Reviews:</strong> Users can write and submit reviews for their favorite movies.</li> <li><strong style='color: #F3D250;'>View Movie Trailers:</strong> Users can view movie trailers.</li> <li><strong style='color: #B0E57C;'>Input Validation:</strong> Submit button is disabled if the review form is empty.</li> <li><strong style='color: #90CCF4;'>Add Movie Reviews:</strong> Users can write and submit reviews for their favorite movies.</li> <li><strong style='color: #5DA2D5;'>Skeleton Loaders:</strong> Skeleton loaders to serve as a placeholder while retrieving data from the database.</li> </ul> <br> <u style='color: #FFFFFF;'><strong>Technical Overview:</strong></u><br></br> <ul style='padding-left: 20px; color: #FFFFFF;'> <li><strong style='color: #F78888;'>Data Storage:</strong> Task data is stored in MongoDB, a NoSQL database that offers flexible schema and scalability.</li> <li><strong style='color: #F3D250;'>Backend Integration:</strong> A separate Java Springboot server serves as an intermediary between the React frontend and the MongoDB database. This server handles API requests for getting the movies and reviews from MongoDb as well as posting new movie reviews.</li> </ul><br><u style='color: #FFFFFF;'><strong>Future Enhancements:</strong></u><br></br><ul style='padding-left: 20px; color: #FFFFFF;'> <li><strong style='color: #B0E57C;'>User Authentication:</strong> Allow users to create accounts, login and manage profiles.</li><li><strong style='color: #90CCF4;'>Browse Movies:</strong> Users can explore a vast collection of movies with their respective information.</li> <li><strong style='color: #5DA2D5;'> Skeleton Loaders for Reviews:</strong> Implement skeleton loaders for reviews page.</li></ul></div>",
-    "tags": ["react", "javascript", "springboot", "mongodb", "java"],
-    "demo": ["https://simple-movie-review.vercel.app/"],
-    "source_code": ["https://github.com/cherylgohqp/simple-movie-review-client"]
+    "details": "<br><div style='line-height: 1.6; color: #333;'> <u style='color: #FFFFFF;'><strong>Features:</strong></u> <br></br> <ul style='padding-left: 20px; color: #FFFFFF;'> <li><strong style='color: #F78888;'>Add Movie Reviews:</strong> Users can write and submit reviews for their favorite movies.</li> <li><strong style='color: #F3D250;'>View Movie Trailers:</strong> Users can view movie trailers.</li> <li><strong style='color: #B0E57C;'>Input Validation:</strong> Submit button is disabled if the review form is empty.</li> <li><strong style='color: #90CCF4;'>Add Movie Reviews:</strong> Users can write and submit reviews for their favorite movies.</li> <li><strong style='color: #5DA2D5;'>Search Movie Collection:</strong> Search movie catalogue base on movie titles.</li> <li><strong style='color: #F78888;'>Skeleton Loaders:</strong> Skeleton loaders to serve as a placeholder while retrieving data from the database.</li> </ul> <br> <u style='color: #FFFFFF;'><strong>Technical Overview:</strong></u><br></br> <ul style='padding-left: 20px; color: #FFFFFF;'> <li><strong style='color: #F3D250;'>Data Storage:</strong> Task data is stored in MongoDB, a NoSQL database that offers flexible schema and scalability.</li> <li><strong style='color: #B0E57C;'>Backend Integration:</strong> A separate Java Springboot server serves as an intermediary between the React frontend and the MongoDB database. This server handles API requests for getting the movies and reviews from MongoDb as well as posting new movie reviews.</li> </ul><br><u style='color: #FFFFFF;'><strong>Future Enhancements:</strong></u><br></br><ul style='padding-left: 20px; color: #FFFFFF;'> <li><strong style='color: #90CCF4;'>User Authentication:</strong> Allow users to create accounts, login and manage profiles.</li><li><strong style='color: #5DA2D5;'>View Trailers via Movie Card:</strong> Movie trailer entry point via movie cards section.</li> <li><strong style='color: #F78888;'> Filter Movies by Genre:</strong> Implement filter tags in movies catalogue page.</li></ul></div>",
+    "tags": [
+      "react",
+      "javascript",
+      "springboot",
+      "mongodb",
+      "java"
+    ],
+    "demo": [
+      "https://simple-movie-review.vercel.app/"
+    ],
+    "source_code": [
+      "https://github.com/cherylgohqp/simple-movie-review-client"
+    ]
   },
   {
     "id": 5,
@@ -75,8 +110,13 @@
     ],
     "description": "Collaborated with a team of seven, under the guidance of the Defense Science Organization (DSO) National Laboratories, to design and develop a semi-autonomous reconnaissance robot for intelligence gathering in terrorist-occupied indoor spaces during a six-month project.",
     "details": "<div style='line-height: 1.6; color: #333;'>  <u><strong style='color: #F78888;'>Robot's Core Capabilities:</strong></u><ul style='padding-left: 20px; color: #FFFFFF;'>    <li>Real-time detection and location of potential terrorists and hostages</li>    <li>Identification of weapon types</li>    <li>Autonomous navigation</li>  </ul><br>  <u><strong style='color: #F3D250;'>Advanced Visual Intelligence Features:</strong></u> <ul style='padding-left: 20px; color:#FFFFFF;'>   <li>Real-time facial recognition</li>    <li>Landmark-Based Localization</li>    <li>Object Detection Powered by CNNs</li>    <li>Weapon Model Identification</li>  </ul><br>   <u><strong style='color: #B0E57C;'>Aural Intelligence Capabilities:</strong></u><ul style='padding-left: 20px; color: #FFFFFF;'>   <li>Gunshot localization</li>    <li>Emotion classification</li>    <li>Real-time mapping localization via a mini map and report logs app done in Python and JavaScript</li>  </ul></div><br></br>Here's a short demo video!",
-    "video": ["https://www.youtube.com/embed/3CeIsJsqkMc?si=PzlF_RAdFaJn_Ut6"],
-    "tags": ["python", "javascript"],
+    "video": [
+      "https://www.youtube.com/embed/3CeIsJsqkMc?si=PzlF_RAdFaJn_Ut6"
+    ],
+    "tags": [
+      "python",
+      "javascript"
+    ],
     "source_code": "https://github.com/fishblowbubbles/devastator/tree/master"
   },
   {
@@ -97,6 +137,8 @@
       "https://www.youtube.com/embed/LzLlWA_p2n8?si=TcU7FcXmIa4rHBYa",
       "https://www.youtube.com/embed/_wY7oxi_UMs?si=z-fyXbFlM1pWXQxK"
     ],
-    "tags": ["adobe-xd"]
+    "tags": [
+      "adobe-xd"
+    ]
   }
 ]
