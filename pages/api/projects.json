@@ -1,6 +1,31 @@
 [
   {
     "id": 1,
+    "name": "Task list App - Java Spring Boot",
+    "image": [
+      "/SubtaskDropdown.png",
+      "/AddSubtask.png",
+      "/TogglingSubtask.png",
+      "/Validation1.png",
+      "/Validation2.png"
+    ],
+    "description": "A full-stack to-do task application built using Java Spring Boot for the backend API calls and React Javascript for the frontend user interface, inclusive of form validation checks and a Storybook to display the reusable components. The to-do task application is able to handle creation of tasks and subtasks, deletion of tasks and subtasks and toggling tasks and subtasks completion statuses.",
+    "details": "<br><div style='line-height: 1.6; color: #333;'> <u style='color: #FFFFFF;'><strong>Features:</strong></u> <br></br> <ul style='padding-left: 20px; color: #FFFFFF;'> <li><strong style='color: #F78888;'>Add New Tasks:</strong> Users can create tasks by providing the task name.</li> <li><strong style='color: #F3D250;'>Add Sub Tasks:</strong> Users can create sub tasks from its parent tasks.</li> <li><strong style='color: #B0E57C;'>Delete Tasks and Sub tasks:</strong> Users can remove tasks and sub tasks from their list and deleting a parent task will remove all sub tasks of the parent task.</li> <li><strong style='color: #90CCF4;'>Input Validation:</strong> Handled cases where users try to submit empty task or sub task names.</li></ul> <br> <u style='color: #FFFFFF;'><strong>Technical Overview:</strong></u><br></br> <ul style='padding-left: 20px; color: #FFFFFF;'> <li><strong style='color: #5DA2D5;'>Backend Code Structure:</strong> Controller-Service-Repository Pattern is used. Controllers handle HTTP requests and responses. Services implements the business logic of the application. Repository is responsible for data access and storage</li> <li><strong style='color: #F78888;'>API Integration:</strong> Axios is used to make the HTTP calls from the Frontend to the Backend API.</li></ul><br><u style='color: #FFFFFF;'><strong>Future Enhancements:</strong></u><br></br><ul style='padding-left: 20px; color: #FFFFFF;'> <li><strong style='color: #F3D250;'>Check for duplicated sub tasks or tasks:</strong>Tasks or sub tasks with similar names cannot be added.</li><li><strong style='color: #B0E57C;'>Edit task names and sub task name:</strong> Allow users to be able to change task and sub task names.</li></ul></div>",
+    "video": [
+      "https://www.youtube.com/embed/dMngBgwi2u8?si=Cd93e5jiGnA0sP73",
+      "https://www.youtube.com/embed/XcJumyQ6VX0?si=kn07iZcwlNmwP_Y-"
+    ],
+    "tags": [
+      "react",
+      "javascript",
+      "springboot"
+    ],
+    "source_code": [
+      "https://github.com/cherylgohqp/spring-boot-todo-app"
+    ]
+  },
+  {
+    "id": 2,
     "name": "P4D - Frontend Engineer",
     "image": [
       "/PodiumBanner2.png",
@@ -24,7 +49,7 @@
     ]
   },
   {
-    "id": 2,
+    "id": 3,
     "name": "UIUX Case Study",
     "image": [
       "/Building.png"
@@ -44,7 +69,7 @@
     ]
   },
   {
-    "id": 3,
+    "id": 4,
     "name": "Simple To-do List",
     "image": [
       "/wombat.png",
@@ -70,7 +95,7 @@
     ]
   },
   {
-    "id": 4,
+    "id": 5,
     "name": "Simple Movie Review",
     "image": [
       "/movie-review1.png",
@@ -98,7 +123,7 @@
     ]
   },
   {
-    "id": 5,
+    "id": 6,
     "name": "Capstone Project 2019",
     "image": [
       "/CapstoneRobot2.jpg",
@@ -120,7 +145,7 @@
     "source_code": "https://github.com/fishblowbubbles/devastator/tree/master"
   },
   {
-    "id": 6,
+    "id": 7,
     "name": "KCAL - UI Project 2019",
     "image": [
       "/kcal.jpg",
