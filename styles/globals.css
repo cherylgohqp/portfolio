@@ -120,3 +120,17 @@
 .java:hover {
   background: rgb(21, 114, 182, 0.25);
 }
+
+.pyplot {
+  border: 2px solid rgb(252, 87, 34); /* PyPlot Accent Color */
+}
+.pyplot:hover {
+  background: rgba(252, 87, 34, 0.25);
+}
+
+.pandas {
+  border: 2px solid rgb(255, 70, 0); /* Pandas Orange */
+}
+.pandas:hover {
+  background: rgba(255, 70, 0, 0.25);
+}

@@ -165,5 +165,22 @@
     "tags": [
       "adobe-xd"
     ]
+  },
+  {
+    "id": 8,
+    "name": "Stock Price Prediction Project",
+    "image": [
+      "/StockPrediction1.png",
+      "/StockPrediction2.png",
+      "/StockPrediction4.png",
+      "/StockPrediction3.png"
+    ],
+    "description": "In this project, we are attempting to predict the future stock price movement (whether they are going to rise or fall) given historical stock price data using time series modelling.",
+    "details": "<p style='font-family: Arial, sans-serif; line-height: 1.6; color: #FFFFFF;'>Stock prices can be influenced by events that happened months or even years ago. LSTMs are well-suited for this task as they can learn long-term dependencies by selectively retaining information through memory cells and gates, making them ideal for stock price prediction.</p> <br><p style='font-family: Arial, sans-serif; line-height: 1.6; color: #FFFFFF;'><u style='color: #FFFFFF;'><strong>Dataset and Collection:</strong></u><br>Dataset: Historical data of China Merchants Bank Co Ltd’s stock prices and volume, adjusted on a daily basis from 2015 to 2018<br><br>Quantitative Data:<br><ul style='padding-left: 20px; color: #FFFFFF;'><li><strong style='color: #B0E57C;'>Closing price:</strong> The closing stock price of the day</li> <li><strong style='color: #90CCF4;'>Opening price:</strong> The opening stock price of the day</li> <li><strong style='color: #5DA2D5;'>Volume of stocks:</strong> The number of stocks traded</li><li><strong style='color: #F78888;'>High:</strong> The highest price the stock reached during the day</li><li><strong style='color: #F3D250;'>Low:</strong> The lowest price the stock reached during the day</li></ul> <br></p><p style='font-family: Arial, sans-serif; line-height: 1.6; color: #333;'><u style='color: #FFFFFF;'><strong>Data Pre-processing Steps Taken:</strong></u><br> <ul style='padding-left: 20px; color: #FFFFFF;'> <li><strong style='color: #B0E57C;'>Discarding irrelevant dataframe columns:</strong> Removed non-contributing data</li><li><strong style='color: #90CCF4;'>Dividing dataset into training (70%) and validation (30%) sets:</strong> Random splitting should not be used as that will destroy the time component (training: last 3 years; validation: current year)</li>  </ul></p> <br><u style='color: #FFFFFF;'><strong>Implementation of LSTM Model:</strong></u><br> <p style='color: #FFFFFF;'>We utilized the Sequential model from Keras. The model consists of two LSTM layers with 100 units each and a dropout rate of 20% for regularization. The loss function used is Mean Squared Error (MSE), optimized with the Adam optimizer.</p><br><u style='color: #FFFFFF;'><strong>Evaluation and Challenges:</strong></u><br><p style='color: #FFFFFF;'>While LSTMs offer significant advantages for predicting stock market prices, there are still several challenges to consider:</p><ul style='padding-left: 20px; color: #FFFFFF;'><br><li><strong style='color: #5DA2D5;'>Data Quality and Noise:</strong> Stock prices are influenced by numerous unpredictable factors such as news events, social media sentiment, and investor confidence. LSTMs might struggle to differentiate between relevant patterns and random noise, leading to potential inaccuracies in predictions.</li> <li><strong style='color: #F78888;'>Non-Linear Relationships:</strong> Although LSTMs can handle complex relationships, the stock market is volatile, and sudden shifts or non-linear behaviors can occur due to unforeseen events. This can prevent the model from fully capturing unpredictable fluctuations.</li></ul>",
+    "tags": [
+      "python",
+      "pandas",
+      "pyplot"
+    ]
   }
 ]
