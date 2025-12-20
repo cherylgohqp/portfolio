@@ -47,7 +47,7 @@
 .file p {
   margin-left: 5px;
   text-decoration: none;
-  color: var(--button-text);
+  color: #ececec;
 }
 
 .file:hover {
