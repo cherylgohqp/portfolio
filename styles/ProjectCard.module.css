@@ -5,6 +5,7 @@
   border-radius: 20px;
   cursor: pointer;
   position: relative;
+  max-width: 320px;
 }
 
 .card:hover .overlay {
@@ -14,6 +15,8 @@
 
 .image {
   border-radius: 20px 20px 0px 0px;
+  max-width: 100%;
+  height: auto;
 }
 .overlay {
   position: absolute;
