@@ -11,7 +11,7 @@
     "@heroicons/react": "^1.0.6",
     "@notionhq/client": "^0.2.2",
     "bootstrap": "^5.3.3",
-    "next": "^15.0.5",
+    "next": "^16.1.5",
     "next-video": "^1.1.0",
     "react": "^18.2.0",
     "react-awesome-slider": "^4.1.0",
