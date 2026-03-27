@@ -35,7 +35,9 @@ const ProjectsPage = ({ projects }) => {
 
   return (
     <>
-      <h3>Projects I've Worked On - Upgrading In Progress </h3>
+      <h3 className={styles.pageHeader}>
+        Projects I've Worked On - Upgrading In Progress{" "}
+      </h3>
       <div className={styles.container}>
         {projects.map((project, index) => (
           <ProjectCard
