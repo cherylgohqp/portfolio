@@ -2,12 +2,12 @@
   display: flex;
   justify-content: center;
   width: 100%;
-  height: 100%;
+  min-height: 100%;
   /* font-family: "Roboto", sans-serif; */
 }
 
 .overlay {
-  height: 100%;
+  width: 100%;
   overflow-y: auto;
   box-shadow: inset 0 0 0 2000px rgba(15, 15, 15, 0.588);
 }
@@ -31,16 +31,18 @@
   flex-direction: column;
   padding: 30px;
   width: 100%;
-  height: 85vh; /* matches the height for parent content layout */
-  top: 0;
-  left: 0;
-  position: relative;
+  box-sizing: border-box;
 }
 
 .picture {
   padding: 24px 0;
   height: auto;
   width: 100%;
+}
+
+.picture img {
+  max-width: 100%;
+  height: auto;
 }
 
 .section-title {

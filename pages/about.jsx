@@ -42,7 +42,7 @@ const AboutPage = () => {
               <ul className={classes["skillsList"]}>
                 {skillsList.map((skill) => {
                   return (
-                    <li>
+                    <li key={skill}>
                       <span>{skill}</span>
                     </li>
                   );
@@ -55,7 +55,7 @@ const AboutPage = () => {
                   alt="this is me"
                   height={800}
                   width={800}
-                  objectFit="cover"
+                  style={{ objectFit: "cover" }}
                 />
               </div>
             </div>
