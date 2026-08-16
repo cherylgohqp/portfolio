@@ -1,3 +1,12 @@
+.pageHeader {
+  font-size: 1.05rem;
+  font-weight: 500;
+  color: var(--text-color);
+  opacity: 0.8;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.07);
+}
+
 .container {
   margin: 1.5rem 0;
   display: grid;
@@ -12,20 +21,22 @@
   position: absolute;
   top: 0;
   width: 100%;
-  height: 100%; /* Cover the entire viewport */
-  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay */
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(6px);
   overflow-y: auto;
 }
 
 .modalContent {
-  background-color: rgb(35, 35, 35);
-  padding: 20px;
-  border-radius: 5px;
+  background-color: rgb(24, 24, 32);
+  padding: 24px;
+  border-radius: 12px;
   height: 100%;
   max-width: 700px;
   max-height: 600px;
   overflow-y: auto;
-  /* Add additional styles for modal content appearance */
+  border: 1px solid rgba(255, 255, 255, 0.09);
+  box-shadow: 0 24px 64px rgba(0, 0, 0, 0.65);
 }
 
 .modalContent::-webkit-scrollbar {
@@ -49,55 +60,70 @@
 }
 
 .icon {
-  margin-left: 8px; /* Adjust the gap between the text and icon */
+  flex-shrink: 0;
 }
 
 .tag {
-  display: inline-flex; /* Align text and icon horizontally */
-  align-items: center; /* Center items vertically */
-  padding: 0.5rem 1rem; /* Add padding around the text and icon */
-  background-color: #8e24aa; /* Background color */
-  color: #fff; /* Text color */
-  border-radius: 20px; /* Rounded corners for pill effect */
-  text-decoration: none; /* Remove underline */
-  font-size: 0.9rem; /* Adjust font size */
-  transition: box-shadow 0.3s ease; /* Smooth transition for shadow effect */
-  box-shadow: 0 0 4px rgba(0, 0, 0, 0.3); /* Initial shadow effect */
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.5rem 1.1rem;
+  background: linear-gradient(135deg, #7b1fa2, #ab47bc);
+  color: #fff;
+  border-radius: 20px;
+  text-decoration: none;
+  font-size: 0.85rem;
+  font-weight: 500;
+  transition:
+    box-shadow 0.25s ease,
+    transform 0.2s ease;
+  box-shadow: 0 2px 8px rgba(142, 36, 170, 0.4);
 }
 .tag:hover {
-  box-shadow: 0 0 8px rgba(231, 174, 244, 0.845); /* Glowing shadow effect on hover */
+  box-shadow: 0 4px 18px rgba(231, 174, 244, 0.65);
+  transform: translateY(-2px);
 }
 
 .demoTag {
-  display: inline-flex; /* Align text and icon horizontally */
-  align-items: center; /* Center items vertically */
-  padding: 0.5rem 1rem; /* Add padding around the text and icon */
-  background-color: #d3a0f1; /* Background color */
-  color: #fff; /* Text color */
-  border-radius: 20px; /* Rounded corners for pill effect */
-  text-decoration: none; /* Remove underline */
-  font-size: 0.9rem; /* Adjust font size */
-  transition: box-shadow 0.3s ease; /* Smooth transition for shadow effect */
-  box-shadow: 0 0 4px rgba(0, 0, 0, 0.3); /* Initial shadow effect */
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.5rem 1.1rem;
+  background: linear-gradient(135deg, #5c6bc0, #7986cb);
+  color: #fff;
+  border-radius: 20px;
+  text-decoration: none;
+  font-size: 0.85rem;
+  font-weight: 500;
+  transition:
+    box-shadow 0.25s ease,
+    transform 0.2s ease;
+  box-shadow: 0 2px 8px rgba(92, 107, 192, 0.4);
 }
 .demoTag:hover {
-  box-shadow: 0 0 8px #e2c0f5; /* Glowing shadow effect on hover */
+  box-shadow: 0 4px 18px rgba(187, 197, 255, 0.65);
+  transform: translateY(-2px);
 }
 
 .casestudy {
-  display: inline-flex; /* Align text and icon horizontally */
-  align-items: center; /* Center items vertically */
-  padding: 0.5rem 1rem; /* Add padding around the text and icon */
-  background-color: #ffb6c1; /* Background color */
-  color: #fff; /* Text color */
-  border-radius: 20px; /* Rounded corners for pill effect */
-  text-decoration: none; /* Remove underline */
-  font-size: 0.9rem; /* Adjust font size */
-  transition: box-shadow 0.3s ease; /* Smooth transition for shadow effect */
-  box-shadow: 0 0 4px rgba(0, 0, 0, 0.3); /* Initial shadow effect */
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.5rem 1.1rem;
+  background: linear-gradient(135deg, #c2185b, #f06292);
+  color: #fff;
+  border-radius: 20px;
+  text-decoration: none;
+  font-size: 0.85rem;
+  font-weight: 500;
+  transition:
+    box-shadow 0.25s ease,
+    transform 0.2s ease;
+  box-shadow: 0 2px 8px rgba(194, 24, 91, 0.35);
 }
 .casestudy:hover {
-  box-shadow: 0 0 8px #fac3cb; /* Glowing shadow effect on hover */
+  box-shadow: 0 4px 18px rgba(246, 156, 198, 0.65);
+  transform: translateY(-2px);
 }
 
 .underline {
@@ -125,13 +151,21 @@
 .closepreview {
   display: flex;
   flex-direction: row-reverse;
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  opacity: 0.6;
+  transition: opacity 0.2s ease;
+}
+
+.closepreview:hover {
+  opacity: 1;
 }
 
 .closeBtn {
-  display: flex;
-  height: 48px;
-  width: 48px;
-  cursor: pointer;
+  height: 36px;
+  width: 36px;
   color: white;
 }
 

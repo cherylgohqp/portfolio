@@ -15,6 +15,7 @@ const ProjectCard = ({ project, onClick }) => {
       />
       <div className={styles.overlay}>
         <EyeIcon className={styles.preview} />
+        <span className={styles.previewLabel}>View Project</span>
       </div>
       <div className={styles.content}>
         <h3>{project.name}</h3>

@@ -62,9 +62,14 @@ const ProjectDetailsModal = ({
       <div className={styles.modalContent}>
         {/* Project preview content here */}
 
-        <div className={styles.closepreview} onClick={onHide}>
+        <button
+          type="button"
+          className={styles.closepreview}
+          onClick={onHide}
+          aria-label="Close"
+        >
           <XCircleIcon className={styles.closeBtn} />
-        </div>
+        </button>
 
         <div className={styles.imageSlider}>
           <AutoplaySlider
